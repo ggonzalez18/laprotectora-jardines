@@ -18,66 +18,153 @@
 <body>
     <!-- aqui esta la barra de navegación -->
     <header>
-        <section class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light nav-color fixed-top">
-                <div class="container">
-                    <a class="navbar-brand" href="#"><img src="assets/img/logo-laprotectora.png" width="120" height="" alt="Logo
+        <section class="container-fluid" title="barra de navegacion">
+            <nav class="navbar navbar-expand-lg navbar-light nav-color fixed-top align-center">
+                <a class="navbar-brand ml-auto" href="#"><img src="assets/img/logo-laprotectora.png" width="120" height="" alt="Logo
                     del sitio web"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon">Menú</span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item "><a class="nav-link" href="#inicio">Nosotros</a></li>
-                            <li class="nav-item dropdown nav-color">
-                                <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Programas Sociales
-                                </a>
-                                <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">SubMenu 1</a>
-                                    <a class="dropdown-item" href="#">SubMenu 2</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown nav-color">
-                                <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Educación
-                                </a>
-                                <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">SubMenu 1</a>
-                                    <a class="dropdown-item" href="#">SubMenu 2</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown nav-color">
-                                <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Como Ayudar
-                                </a>
-                                <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">SubMenu 1</a>
-                                    <a class="dropdown-item" href="#">SubMenu 2</a>
-                                </div>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-                            <li>
-                                <div>
-                                    <input type="text" class="form-control form-control-sm" placeholder="Búsqueda">
 
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="mt-2">Menú</span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item "><a class="nav-link" href="#inicio">Nosotros</a></li>
+                        <li class="nav-item dropdown nav-color">
+                            <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Programas Sociales
+              </a>
+                            <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">SubMenu 1</a>
+                                <a class="dropdown-item" href="#">SubMenu 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown nav-color">
+                            <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Educación
+              </a>
+                            <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">SubMenu 1</a>
+                                <a class="dropdown-item" href="#">SubMenu 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown nav-color">
+                            <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cómo Ayudar
+              </a>
+                            <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">SubMenu 1</a>
+                                <a class="dropdown-item" href="#">SubMenu 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!-- buscador -->
+                <div class="input-group col-lg-3 col-md-3 col-sm-10 ml-auto">
+                    <input type="search" class="form-control form-control-sm" placeholder="Búsqueda">
+                    <button type="button" class="input-group-text input-group-append" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+              viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+          </button>
                 </div>
             </nav>
         </section>
     </header>
 
     <!-- Banner -->
-    <section></section>
+    <section role="banner" title="Banner informativo">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner banner_contain">
+                <div class="carousel-item active banner_carousel1">
+                    <article class="banner_information">
+                        <article class="banner_title">
+                            <h2 class="pl-5 pr-2 pt-2 pb-2">Admisión 2021</h2>
+                        </article>
+                        <button class="btn btn-danger banner_button mt-2">Postular</button>
+                    </article>
+                </div>
+                <div class="carousel-item banner_carousel2">
+                    <article class="banner_information">
+                        <article class="banner_title">
+                            <h2 class="pl-5 pr-2 pt-2 pb-2">Conocer Jardines</h2>
+                        </article>
+                        <button class="btn btn-danger banner_button mt-2">Ver Ahora</button>
+                    </article>
+                </div>
+                <div class="carousel-item banner_carousel3">
+                    <article class="banner_information">
+                        <article class="banner_title">
+                            <h2 class="pl-5 pr-2 pt-2 pb-2">Metodologia Hight scope</h2>
+                        </article>
+                        <button class="btn btn-danger banner_button mt-2">Conocer Más</button>
+                    </article>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+    </section>
 
     <!-- Ed. inicial -->
-    <section></section>
+    <section class="section_educacion_inicial" role="columnheader" title="Educación inicial de la protectora">
+        <div class="container">
+            <h1 class="card-title text-center">Educación Inicial</h1>
+            <div class="row">
+                <div class="col-12 col-lg-6 col-xl-6 col-md-6">
+                    Actualmente, <strong>la Protectora de la Infancia cuenta con 9 Salas Cuna y Jardines Infantiles</strong> coordinados desde el área de Educación Inicial, y están ubicados en las regiones del Maule, Metropolitana, Ñuble y Biobío. En
+                    todos estos,<strong> se potencia el desarrollo de habilidades y aprendizajes </strong>que se espera que logren por edad los niños y niñas pertenecientes a los quintiles más vulnerables de Chile. Este primer nivel educativo es transcendental,
+                    considerando la relevancia e impacto que tiene el aprendizaje en los primeros años de vida.
+                </div>
+                <div class="col-12 col-lg-6 col-xl-6 col-md-6">En ese sentido, el trabajo de los Jardines Infantiles considera además la <strong>orientación y apoyo a madres trabajadoras y estudiantes que no cuenten con redes de apoyo
+            para el cuidado de sus niños y niñas.</strong> Con este fin trabajamos, fortaleciendo el rol de las directoras de los Jardines Infantiles como líderes pedagógicos y acompañando su labor para que su ejercicio tenga como fin, potenciar el aprendizaje
+                    institucional.
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- cifras -->
-    <section></section>
+    <section class="section_cifras">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <article class="d-flex-column text-center">
+                        <h1 class="cifras_num"><strong>1.410</strong></h1>
+                        <small class="text-muted">Niñas y Niños</small>
+                    </article>
+                </div>
+                <div class="col-3">
+                    <article class="d-flex-column text-center">
+                        <h1 class="cifras_num"><strong>1.410</strong></h1>
+                        <small class="text-muted">Niñas y Niños</small>
+                    </article>
+                </div>
+                <div class="col-3">
+                    <article class="d-flex-column text-center">
+                        <h1 class="cifras_num"><strong>1.410</strong></h1>
+                        <small class="text-muted">Niñas y Niños</small>
+                    </article>
+                </div>
+                <div class="col-3">
+                    <article class="d-flex-column text-center">
+                        <h1 class="cifras_num"><strong>1.410</strong></h1>
+                        <small class="text-muted">Niñas y Niños</small>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <!-- acciones -->
     <section></section>
@@ -95,7 +182,7 @@
     <section></section>
 
     <!-- footer -->
-    <section></section>
+    <footer></footer>
 
 
     <!-- no tocar -->
