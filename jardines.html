@@ -20,7 +20,7 @@
     <!-- aqui esta la barra de navegación -->
     <header>
         <section class="container-fluid" title="barra de navegacion">
-            <nav class="navbar navbar-expand-lg navbar-light nav-color fixed-top align-center">
+            <nav class="navbar navbar-expand-lg navbar-dark nav-color fixed-top align-center">
                 <a class="navbar-brand ml-auto" href="#"><img src="assets/img/logo-laprotectora.png" width="120" height="" alt="Logo
                     del sitio web"></a>
 
@@ -45,10 +45,12 @@
                 Educación
               </a>
                             <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">SubMenu 1</a>
-                                <a class="dropdown-item" href="#">SubMenu 2</a>
+                                <a class="dropdown-item" href="#">Fundacion Educacional</a>
+                                <a class="dropdown-item" href="#">Educación Inicial</a>
                             </div>
                         </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Testimonios</a></li>
                         <li class="nav-item dropdown nav-color">
                             <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Cómo Ayudar
@@ -58,7 +60,6 @@
                                 <a class="dropdown-item" href="#">SubMenu 2</a>
                             </div>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
 
@@ -86,7 +87,7 @@
                         <article class="banner_title">
                             <h2 class="pl-5 pr-2 pt-2 pb-2">Admisión 2021</h2>
                         </article>
-                        <button class="btn btn-danger banner_button mt-2">Postular</button>
+                        <button class="btn-jardines mt-2">Postular</button>
                     </article>
                 </div>
                 <div class="carousel-item banner_carousel2">
@@ -94,7 +95,7 @@
                         <article class="banner_title">
                             <h2 class="pl-5 pr-2 pt-2 pb-2">Conocer Jardines</h2>
                         </article>
-                        <button class="btn btn-danger banner_button mt-2">Ver Ahora</button>
+                        <button class="btn-jardines mt-2">Ver Ahora</button>
                     </article>
                 </div>
                 <div class="carousel-item banner_carousel3">
@@ -102,7 +103,7 @@
                         <article class="banner_title">
                             <h2 class="pl-5 pr-2 pt-2 pb-2">Voluntariado</h2>
                         </article>
-                        <button class="btn btn-danger banner_button mt-2">saber Más</button>
+                        <button class="btn-jardines mt-2">saber Más</button>
                     </article>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -178,8 +179,8 @@
     </section>
 
     <!-- acciones -->
-    <section class="pt-5 pb-5 section_line_actions ">
-        <div class="container">
+    <section class="pt-5 pb-5 section_line_actions">
+        <div class="container d-none d-sm-none d-md-none d-lg-block d-xl-block">
             <h2 class="text-center mt-2"><strong>Líneas de Acción</strong></h2>
             <div class="d-flex justify-content-center">
                 <div class="card-body content-lineAction text-left">
@@ -207,9 +208,56 @@
                     <!-- <p class="card-title font-weight-bold">Sustentabilidad</p> -->
                     <small>Sustentabilidad: gestión de la asistencia, obtención y mantención de Reconocimiento oficial, cumplimiento de la normativa.</small>
                 </div>
-
             </div>
         </div>
+
+
+        <!-- version responsive de accion -->
+        <section class="container d-block d-sm-block d-md-block d-lg-none d-xl-none">
+            <div class="row justify-content-center">
+                <article class="col-12">
+                    <div id="carousel-line-accion" class="carousel slide " data-ride="carousel">
+                        <div class="carousel-inner jardines-contain-img">
+                            <div class="carousel-item active justify-content-center">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/img/spiritual.svg" alt="" width="100"></div>
+                                <small>Sello institucional: humanista cristiano, social, valórico y espiritual, inclusivo, y que acoge y acompaña a las familias en la formación de sus hijos..</small>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/img/classroom.svg" alt="" width="100"></div>
+                                <small>Liderazgo Pedagógico: foco en el aula, asesoría sistemática e integral para potenciar el aprendizaje.</small>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/img/donation.svg" alt="" width="100"></div>
+                                <small>Ambientes bien tratantes: cultura de buen trato, adultos sensibles, clima de aula, casos sociales y denuncias.</small>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/img/support.svg" alt="" width="100"></div>
+                                <small>Mejora continua: gestión por aprendizajes, reflexión pedagógica, Comunidades profesionales de aprendizaje.</small>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/img/rules.svg" alt="" width="100"></div>
+                                <small>Sustentabilidad: gestión de la asistencia, obtención y mantención de Reconocimiento oficial, cumplimiento de la normativa.</small>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev " href="#carousel-line-accion" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-line-accion" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
     </section>
 
     <!-- jardines -->
@@ -218,18 +266,18 @@
             <h2 class="text-center"><strong>Sala cuna y Jardines infantiles en 4 regiones</strong></h2>
             <div class="d-flex justify-content-center">
                 <div class="mt-5">
-                    <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+                    <ul class="nav mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item m-2" role="presentation">
-                            <a class="nav-link active btn btn-secondary btn-sm" id="pills-metropolitana-tab" data-toggle="pill" href="#pills-metropolitana" role="tab" aria-controls="pills-metropolitana" aria-selected="true">Region RM</a>
+                            <a class="nav-link active btn-jardines-sm" id="pills-metropolitana-tab" data-toggle="pill" href="#pills-metropolitana" role="tab" aria-controls="pills-metropolitana" aria-selected="true">Region RM</a>
                         </li>
                         <li class="nav-item m-2" role="presentation">
-                            <a class="nav-link btn btn-secondary btn-sm" id="pills-nuble-tab" data-toggle="pill" href="#pills-nuble" role="tab" aria-controls="pills-nuble" aria-selected="false">Region Ñuble</a>
+                            <a class="nav-link btn-jardines-sm" id="pills-nuble-tab" data-toggle="pill" href="#pills-nuble" role="tab" aria-controls="pills-nuble" aria-selected="false">Region Ñuble</a>
                         </li>
                         <li class="nav-item m-2" role="presentation">
-                            <a class="nav-link btn btn-secondary btn-sm" id="pills-maule-tab" data-toggle="pill" href="#pills-maule" role="tab" aria-controls="pills-maule" aria-selected="false">Region Maule</a>
+                            <a class="nav-link btn-jardines-sm" id="pills-maule-tab" data-toggle="pill" href="#pills-maule" role="tab" aria-controls="pills-maule" aria-selected="false">Region Maule</a>
                         </li>
                         <li class="nav-item m-2" role="presentation">
-                            <a class="nav-link btn btn-secondary btn-sm" id="pills-biobio-tab" data-toggle="pill" href="#pills-biobio" role="tab" aria-controls="pills-biobio" aria-selected="false">Region Bio-Bio</a>
+                            <a class="nav-link btn-jardines-sm" id="pills-biobio-tab" data-toggle="pill" href="#pills-biobio" role="tab" aria-controls="pills-biobio" aria-selected="false">Region Bio-Bio</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
@@ -247,15 +295,109 @@
                                     <a class="nav-link" id="nav-jardin5" data-toggle="tab" href="#nav-metropolitana5" role="tab" aria-controls="nav-jardin5" aria-selected="false">San Miguel arcangel</a>
                                 </div>
                             </nav>
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade" id="nav-metropolitana1" role="tabpanel" aria-labelledby="nav-jardin1">contenido ernesto pinto</div>
+                            <div class="tab-content mt-4" id="nav-tabContent">
+                                <!-- inicio jardin ernesto pinto interior -->
+                                <div class="tab-pane fade" id="nav-metropolitana1" role="tabpanel" aria-labelledby="nav-jardin1">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-5 col-xl-5 col-md-12 col-12 mb-3">
+                                            <article>
+                                                <p class="font-weight-bolder">El Jardín:</p>
+                                                <p><strong>Directora:</strong> Elizabeth Pérez<br>
+                                                    <strong>Fono:</strong> +569 3942 6640 / 2 2484 8941<br>
+                                                    <strong>E-mail:</strong>jinfantil.ernestopinto@laprotectora.cl<br>
+                                                    <strong>Niveles:</strong>Medio Mayor - Primer Nivel de Transición.<br>
+                                                    <strong>Niñ@s p/sala:</strong>20 niños por sala aprox.<br>
+                                                    <br>
+                                                </p>
+                                            </article>
+                                            <article>
+                                                <p class="font-weight-bolder">Equipo Profesional:</p>
+                                                <p>El jardín cuenta con diversos profesionales que aportan en el aprendisaje, salud, higene y desarrollo de los niños.</p>
+                                                <p>El equipo multidisciplinario esta compuesto por: 3 Educadoras de Párvulos. 2 Auxiliar de Párvulo, 2 Asistentes Sociales. 1 Psicopedagoga, Nutricionistas, Auxiliar de aseo, Manipuladoras de alimentos.</p>
+                                            </article>
+                                            <article>
+                                                <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner jardines-contain-img">
+                                                        <div class="carousel-item active carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carousel-Controls" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-7 col-xl-7 col-md-12 col-12">
+                                            <article>
+                                                <span class="font-weight-bolder">¿Donde Queda?</span>
+                                                <span>Avenida Concha y Toro 1898, Puente Alto</span>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4898708593987!2d-70.58165148479698!3d-33.59259198073346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d71c709c7795%3A0x77ef6fb68974078c!2sAv.%20Concha%20Y%20Toro%201898%2C%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621657419712!5m2!1ses!2scl"
+                                                    width="100%" height="330" style="border:0;" class="rounded mt-3" allowfullscreen="" loading="lazy"></iframe>
+                                            </article>
+                                            <article>
+                                                <p class="font-weight-bolder">Conoce nuestro jardín</p>
+                                                <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner jardines-contain-img">
+                                                        <div class="carousel-item active carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carousel-Controls" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-8 col-lg-8 col-md-9 col-10">
+                                            <article class="rounded contain-postular mt-3">
+                                                <h5 class="font-weight-bolder">¿Como postular?</h5>
+                                                <p>Si quieres postular a tu o tus hij@s en jardin Ernesto Pinto Lagarrigue debes hacer click en el siguiente boton.</p>
+                                                <button type="button" class="btn-jardines d-flex justify-content-center">Postular</button>
+                                            </article>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- fin jardin ernesto pinto -->
+
+                                <!-- inicio jardin luis falcone -->
                                 <div class="tab-pane fade" id="nav-metropolitana2" role="tabpanel" aria-labelledby="nav-jardin2">contenido luis falcone</div>
+                                <!-- fin jardin luis falcone -->
+
+                                <!-- inicio jardin niño jesus -->
                                 <div class="tab-pane fade" id="nav-metropolitana3" role="tabpanel" aria-labelledby="nav-jardin3">contenido niño jesusto</div>
+                                <!-- fin jardin niño jesus -->
+
+                                <!-- inicio jardin Buen pastor -->
                                 <div class="tab-pane fade" id="nav-metropolitana4" role="tabpanel" aria-labelledby="nav-jardin4">Buen Pastor</div>
+                                <!-- fin jardin Buen pastor -->
+
+                                <!-- inicio jardin miguel arcangel -->
                                 <div class="tab-pane fade" id="nav-metropolitana5" role="tabpanel" aria-labelledby="nav-jardin5">San Miguel arcangel</div>
+                                <!-- fin jardin miguel arcangel -->
                             </div>
                             <div title="Mapa jardines infantiles region metropolitana">
-                                <img src="./assets/img/map-region-rm.png" alt="Mapa jardines infantiles region metropolitana" class="map-metropolitana">
+                                <p>aqui va el mapa</p>
+                                <!-- <img src="./assets/img/map-region-rm.png" alt="Mapa jardines infantiles region metropolitana" class="map-metropolitana"> -->
                             </div>
 
                         </div>
@@ -281,7 +423,7 @@
                     <p class="section_higth_scope_text">El área Educación Inicial tiene como misión entregar educación integral de calidad a niños y niñas entre 84 días y 4 años 11 meses, a través de un proyecto educativo valórico e inclusivo, cuya propuesta metodológica es High Scope,
                         donde se promueven experiencias de aprendizajes desafiantes, pertinentes e integrales. Año a año, más de 1350 niños y niñas, son beneficiados gracias al trabajo de toda la comunidad que trabaja por un Chile solidario.</p>
 
-                    <div class="d-flex justify-content-end"><button type="button" class="btn btn-secondary">Secondary</button></div>
+                    <div class="d-flex justify-content-end"><button type="button" class="btn-jardines">Secondary</button></div>
                 </div>
             </div>
         </div>
@@ -292,16 +434,25 @@
         <div class="container section_voluntariado mt-3 mb-5">
             <h2 class="text-center mb-5"><strong>Conoce el voluntariado de Jardines</strong></h2>
             <div class="row">
-                <div class="col-4">
+                <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-12">
                     <img src="https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="rounded mx-auto d-block w-100">
                 </div>
-                <div class=" col-4 ">
+                <div class="col-xl-4 col-lg-4 col-md-3 col-12">
                     <img src="https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 " alt=" " class="rounded mx-auto d-block w-100">
-                </div>
-                <div class="col-4">
+                </div> 
+             <div class="col-xl-4 col-lg-4 col-md-6 col-12">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit in nobis at eum ut tempore ducimus omnis modi nulla similique. Commodi quia corrupti illo dolorem natus iusto illum quo ab! Impedit in nobis at eum ut tempore ducimus
                         omnis modi nulla similique. Commodi quia corrupti illo dolorem natus iusto illum.</p>
-                    <button type="button" class="btn btn-secondary">Ver voluntariado</button></div>
+                    <button type="button" class="btn-jardines">Ver voluntariado</button></div>
+            </div>-->
+                <div class="col-xl-8 col-lg-8 col-md-6 col-12">
+                    <article class="voluntariado_img rounded"></article>
+                    <!-- <img src="https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="rounded mx-auto d-block w-100"> -->
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit in nobis at eum ut tempore ducimus omnis modi nulla similique. Commodi quia corrupti illo dolorem natus iusto illum quo ab! Impedit in nobis at eum ut tempore ducimus
+                        omnis modi nulla similique. Commodi quia corrupti illo dolorem natus iusto illum.</p>
+                    <button type="button" class="btn-jardines">Ver voluntariado</button></div>
             </div>
         </div>
     </section>
@@ -313,7 +464,7 @@
                   Frecuentes</strong>
             </h2>
             <div class="row">
-                <div class="col-8">
+                <div class="col-xl-8 col-lg-8 col-md-9 col-12">
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="" id="headingOne">
@@ -375,7 +526,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-lg-4 col-md-3 col-12">
                     <img src="https://images.pexels.com/photos/8892/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="rounded mx-auto d-block w-100" alt="...">
                 </div>
             </div>
