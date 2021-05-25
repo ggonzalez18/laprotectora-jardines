@@ -3,7 +3,8 @@ body {
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
     padding-top: 90px;
-    color: 727475;
+    color: #727475;
+    /* color: #474646; */
 }
 
 
@@ -79,12 +80,6 @@ body {
 }
 
 
-/* .banner_button {
-    display: flex;
-    justify-content: end;
-} */
-
-
 /* ed. inicial */
 
 .section_educacion_inicial {
@@ -118,12 +113,44 @@ body {
 
 /* secion fotos jardines */
 
-.image_content {
-    background-color: rgb(172, 172, 172);
-    border: solid 2px rgb(86, 86, 86);
-    width: 25%;
+.image_content1 {
     min-height: 220px;
-    /* min-height: 100px; */
+    width: 100%;
+    position: relative;
+    background-image: url("../img/carrusel_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image_content2 {
+    min-height: 220px;
+    width: 100%;
+    position: relative;
+    background-image: url("../img/carrusel_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image_content3 {
+    min-height: 220px;
+    width: 100%;
+    position: relative;
+    background-image: url("../img/carrusel_3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image_content4 {
+    min-height: 220px;
+    width: 100%;
+    position: relative;
+    background-image: url("../img/carrusel_4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -142,6 +169,28 @@ body {
     position: center;
     background-repeat: no-repeat;
     /* width: 100%; */
+}
+
+.tab_text {
+    display: block;
+    padding: .5rem 1.6rem;
+    box-shadow: 7px -5px 8px -5px #999;
+    border-radius: 6px;
+    color: #474646;
+}
+
+.tab_text.nav-link:hover {
+    color: #474646;
+    /* color: white; */
+    font-weight: 700;
+}
+
+.tab_text:focus,
+.tab_text:active {
+    font-weight: 700;
+    text-decoration: none;
+    color: #A2AF07;
+    /* background-color: #A2AF07!important; */
 }
 
 
@@ -168,7 +217,8 @@ body {
 }
 
 footer {
-    background-color: rgb(64, 64, 64);
+    background-color: #164284;
+    color: white;
     padding: 20px;
 }
 
@@ -201,6 +251,7 @@ footer {
     color: white;
 }
 
+.btn-jardines:hover,
 .btn-jardines-sm:hover,
 .btn-jardines.nav-link:hover {
     background-color: #A2AF07;
@@ -224,6 +275,15 @@ footer {
 
 .carousel_rm_ernestoPinto {
     background-image: url("../img/card_ernesto_rm.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 200px;
+}
+
+.carousel_rm_luisFalcone {
+    background-image: url("../img/card_ingeniero_rm.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
