@@ -222,6 +222,18 @@ footer {
     padding: 20px;
 }
 
+.footer-text {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.66);
+    text-align: left;
+}
+
+.footer-text:hover {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
 
 /* botones */
 
@@ -296,4 +308,8 @@ footer {
     border-radius: 1rem;
     text-align: center;
     padding: 20px;
+}
+
+.color-azul {
+    color: #164284;
 }
