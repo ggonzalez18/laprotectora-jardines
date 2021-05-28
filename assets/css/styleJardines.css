@@ -412,6 +412,62 @@ footer {
     background-color: #C0D100;
 }
 
+.postulacion_img1 {
+    background-image: url("../img/postulacioon1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 240px;
+}
+
+.postulacion_img2 {
+    background-image: url("../img/postulacion2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 215px;
+}
+
+.postulacion_img3 {
+    background-image: url("../img/postulacion3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 215px;
+}
+
+.bread-crumb {
+    display: flex;
+    padding: .75rem 1rem;
+    list-style: none;
+}
+
+
+/* .breadcrumb-item+.breadcrumb-item::before */
+
+.bread-crumb-separate.bread-crumb-separate::before {
+    /* padding-right: .5rem; */
+    padding: 0rem .5rem;
+    color: #7AB24D;
+    content: ">";
+    font-weight: bolder;
+}
+
+.postulacion-parrafo-regular {
+    text-decoration: none;
+    color: #727475;
+    font-size: 16px;
+}
+
+.postulacion-parrafo-regular:hover {
+    text-decoration: none;
+    color: #7AB24D;
+    font-weight: bold;
+}
+
 
 /* timeline */
 
