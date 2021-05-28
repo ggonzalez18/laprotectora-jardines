@@ -3,7 +3,18 @@ body {
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
     padding-top: 90px;
+}
+
+.jardines-title {
+    font-size: 36px;
+    text-align: center;
+    /* font-weight: 600; */
+    color: #474646!important;
+}
+
+.jardines-parrafo-regular {
     color: #727475;
+    font-size: 16px;
 }
 
 
@@ -23,8 +34,11 @@ body {
     max-height: 400px;
 }
 
+.banner-contain-article p {
+    margin: 0
+}
+
 .banner_carousel1 {
-    /* background-color: rgb(132, 132, 132); */
     width: 100%;
     height: 400px;
     position: relative;
@@ -34,7 +48,8 @@ body {
     background-repeat: no-repeat;
 }
 
-.banner_carousel2 {
+
+/* .banner_carousel2 {
     width: 100%;
     height: 400px;
     position: relative;
@@ -52,7 +67,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
 
 /* .banner_carousel4 {
@@ -72,10 +87,16 @@ body {
 }
 
 .banner_title {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.781);
     color: rgb(81, 81, 81);
     text-align: right;
     font-weight: 500;
+}
+
+.banner_button_text,
+.banner_button_text:hover {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -167,7 +188,6 @@ body {
     background-size: cover;
     position: center;
     background-repeat: no-repeat;
-    /* width: 100%; */
 }
 
 .tab_text {
@@ -175,21 +195,35 @@ body {
     padding: .5rem 1.6rem;
     box-shadow: 7px -5px 8px -5px #999;
     border-radius: 6px;
-    color: #474646;
+    color: #727475;
+    text-align: center;
 }
 
-.tab_text.nav-link:hover {
-    color: #474646;
-    /* color: white; */
+.tab_text.nav-link:hover,
+.tab_text_two.nav-link:hover {
+    color: #727475;
     font-weight: 700;
 }
 
+.tab_text::before,
 .tab_text:focus,
-.tab_text:active {
+.tab_text:active,
+.tab_text_two::before,
+.tab_text_two:focus,
+.tab_text_two:active {
     font-weight: 700;
     text-decoration: none;
-    color: #A2AF07;
-    /* background-color: #A2AF07!important; */
+    color: #7AB24D;
+}
+
+.tab_text_two {
+    display: block;
+    padding: .5rem 1.6rem;
+    box-shadow: 7px -5px 8px -5px #999;
+    border-radius: 6px;
+    color: #727475;
+    text-align: center;
+    min-width: 180px;
 }
 
 
@@ -203,7 +237,9 @@ body {
 /* voluntariado */
 
 .section_voluntariado {
-    padding: 25px 0;
+    min-height: 350px;
+    border-top: 75px solid #E1E6EF;
+    border-bottom: 75px solid #E1E6EF;
 }
 
 .voluntariado_img {
@@ -212,8 +248,22 @@ body {
     position: center;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 300px;
+    min-height: 220px;
 }
+
+.voluntariado_content {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0 1px 7px 1px #a5a5a5;
+    min-height: 350px;
+    margin: -50px 0px;
+    width: 90%;
+    padding: 15px;
+}
+
+
+/* footer */
 
 footer {
     background-color: #164284;
@@ -249,8 +299,9 @@ footer {
     line-height: 1.5;
     text-align: center;
     text-decoration: none;
-    background-color: #C0D100;
+    background-color: #7AB24D;
     color: white;
+    width: 170px;
 }
 
 .btn-jardines-sm {
@@ -262,14 +313,15 @@ footer {
     line-height: 1.5;
     text-align: center;
     text-decoration: none;
-    background-color: #C0D100;
+    background-color: #0081C2;
     color: white;
+    width: 160px;
 }
 
 .btn-jardines:hover,
 .btn-jardines-sm:hover,
 .btn-jardines.nav-link:hover {
-    background-color: #A2AF07;
+    background-color: #164284;
     color: white;
     font-weight: 600;
 }
@@ -278,7 +330,7 @@ footer {
 .btn-jardines.nav-link:active {
     font-weight: 600;
     text-decoration: none;
-    background-color: #A2AF07!important;
+    background-color: #164284!important;
 }
 
 
@@ -306,12 +358,13 @@ footer {
     min-height: 200px;
 }
 
-.contain-postular {
+
+/* .contain-postular {
     background-color: #F7F9E4;
     border-radius: 1rem;
     text-align: center;
     padding: 20px;
-}
+} */
 
 .color-azul {
     color: #164284;
@@ -337,7 +390,7 @@ footer {
     height: 120px;
     bottom: 0;
     right: 35%;
-    padding: 5px;
+    padding: 15px;
 }
 
 .banner-contain-article {
@@ -348,13 +401,74 @@ footer {
 .barra-color-azul {
     background-color: #164284;
     width: 7px;
-    height: 60px;
+    height: 50px;
     margin-right: 5px;
 }
 
 .barra-color-verde {
     width: 7px;
-    height: 60px;
+    height: 50px;
     margin-right: 5px;
     background-color: #C0D100;
+}
+
+
+/* timeline */
+
+.hori-timeline .events {
+    border-top: 5px solid #727475;
+}
+
+.hori-timeline .events .event-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+
+.hori-timeline .events .event-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #727475;
+    top: 0;
+}
+
+.hori-timeline .events .event-list .event-date {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 2px 4px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+@media (min-width: 992px) {
+    .hori-timeline .events .event-list {
+        display: inline-block;
+        width: 16%;
+        padding-top: 45px;
+    }
+    .hori-timeline .events .event-list .event-date {
+        top: -12px;
+    }
+    .alineacion {
+        display: flex;
+        justify-content: start;
+    }
+}
+
+.bg-gray {
+    background-color: #727475!important;
+    color: white;
+}
+
+.bg-green {
+    background-color: #C0D100!important;
 }

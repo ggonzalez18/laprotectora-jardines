@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/styleJardines.css">
+    <link rel="stylesheet" href="./assets/mediaQuery/mediaquery.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- bootstrap iconos -->
@@ -81,58 +82,35 @@
 
     <!-- Banner -->
     <section role="banner" title="Banner informativo">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner banner_contain">
-                <div class="carousel-item active banner_carousel1">
-                    <article class="banner_information">
-                        <article class="banner_title">
-                            <h2 class="pl-5 pr-2 pt-2 pb-2">Admisión 2021</h2>
-                        </article>
-                        <button class="btn-jardines mt-2">Postular</button>
-                    </article>
-                </div>
-                <div class="carousel-item banner_carousel2">
-                    <article class="banner_information">
-                        <article class="banner_title">
-                            <h2 class="pl-5 pr-2 pt-2 pb-2">Conocer Jardines</h2>
-                        </article>
-                        <button class="btn-jardines mt-2">Ver Ahora</button>
-                    </article>
-                </div>
-                <div class="carousel-item banner_carousel3">
-                    <article class="banner_information">
-                        <article class="banner_title">
-                            <h2 class="pl-5 pr-2 pt-2 pb-2">Voluntariado</h2>
-                        </article>
-                        <button class="btn-jardines mt-2">saber Más</button>
-                    </article>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
+        <div class="banner_carousel1">
+            <article class="banner_information">
+                <article class="banner_title">
+                    <h2 class="pl-5 pr-2 pt-2 pb-2">Admisión 2021</h2>
+                </article>
+                <a href="" class="banner_button_text"><button class="btn-jardines mt-2">Postular</button></a>
+            </article>
+        </div>
     </section>
 
     <!-- Ed. inicial -->
     <section class="section_educacion_inicial" role="columnheader" title="Educación inicial de la protectora">
         <div class="container">
-            <h1 class="card-title text-center">Educación Inicial</h1>
+            <h1 class="jardines-title mb-4">Educación Inicial</h1>
             <div class="row">
                 <div class="col-12 col-lg-6 col-xl-6 col-md-6">
-                    Actualmente, <strong>la Protectora de la Infancia cuenta con 9 Salas Cuna y Jardines
-                        Infantiles</strong> coordinados desde el área de Educación Inicial, y están ubicados en las regiones del Maule, Metropolitana, Ñuble y Biobío. En todos estos,<strong> se potencia el desarrollo
-                        de habilidades y aprendizajes </strong>que se espera que logren por edad los niños y niñas pertenecientes a los quintiles más vulnerables de Chile. Este primer nivel educativo es transcendental, considerando la relevancia e impacto
-                    que tiene el aprendizaje en los primeros años de vida.
+                    <p class="jardines-parrafo-regular">
+                        Actualmente, <strong>la Protectora de la Infancia cuenta con 9 Salas Cuna y Jardines
+                            Infantiles</strong> coordinados desde el área de Educación Inicial, y están ubicados en las regiones del Maule, Metropolitana, Ñuble y Biobío. En todos estos,<strong> se potencia el
+                            desarrollo
+                            de habilidades y aprendizajes </strong>que se espera que logren por edad los niños y niñas pertenecientes a los quintiles más vulnerables de Chile. Este primer nivel educativo es transcendental, considerando la relevancia e
+                        impacto que tiene el aprendizaje en los primeros años de vida.</p>
                 </div>
-                <div class="col-12 col-lg-6 col-xl-6 col-md-6">En ese sentido, el trabajo de los Jardines Infantiles considera además la <strong>orientación y apoyo a madres trabajadoras y estudiantes que no cuenten
-                        con redes de apoyo
-                        para el cuidado de sus niños y niñas.</strong> Con este fin trabajamos, fortaleciendo el rol de las directoras de los Jardines Infantiles como líderes pedagógicos y acompañando su labor para que su ejercicio tenga como fin, potenciar
-                    el aprendizaje institucional.
+                <div class="col-12 col-lg-6 col-xl-6 col-md-6">
+                    <p class="jardines-parrafo-regular">
+                        En ese sentido, el trabajo de los Jardines Infantiles considera además la <strong>orientación y
+                            apoyo a madres trabajadoras y estudiantes que no cuenten
+                            con redes de apoyo para el cuidado de sus niños y niñas.</strong> <br> Con este fin trabajamos, fortaleciendo el rol de las directoras de los Jardines Infantiles como líderes pedagógicos y acompañando su labor para que su ejercicio
+                        tenga como fin, potenciar el aprendizaje institucional.</p>
                 </div>
             </div>
         </div>
@@ -184,36 +162,34 @@
     <!-- acciones -->
     <section class="pt-5 pb-5 section_line_actions" title="Líneas de acción de la protectora">
         <div class="container d-none d-sm-none d-md-none d-lg-block d-xl-block">
-            <h2 class="text-center mt-2"><strong>Líneas de Acción</strong></h2>
+            <h2 class="jardines-title mt-2"><strong>Líneas de Acción</strong></h2>
             <div class="d-flex justify-content-center">
                 <div class="card-body content-lineAction text-left">
                     <img src="./assets/img/spiritual.svg" alt="" width="100" class="d-flex justify-content-center"> <br>
-                    <!-- <p class="card-title font-weight-bold">Sello institucional</p> -->
-                    <small>Sello institucional: humanista cristiano, social, valórico y espiritual, inclusivo, y que
-                        acoge y acompaña a las familias en la formación de sus hijos..</small>
+                    <small>Sello institucional: humanista cristiano, social, inclusivo, valórico y espiritual que
+                        acoge y acompaña a las familias en la formación de sus hijos.</small>
                 </div>
                 <div class="card-body content-lineAction text-left">
-                    <img src="./assets/img/classroom.svg" alt="" width="100" class="d-flex justify-content-center"> <br>
-                    <!-- <p class="card-title font-weight-bold">Liderazgo Pedagógico</p> -->
-                    <small>Liderazgo Pedagógico: foco en el aula, asesoría sistemática e integral para potenciar el
-                        aprendizaje.</small>
+                    <img src="./assets/img/classroom.svg" alt="" width="100" class="d-flex justify-content-center"><br>
+                    <small>Liderazgo Pedagógico: Consideramos el foco en el aula, asesoría sistemática e integral para
+                        potenciar el
+                        aprendizaje de los niños.</small>
                 </div>
                 <div class="card-body content-lineAction text-left">
                     <img src="./assets/img/donation.svg" alt="" width="100" class="d-flex justify-content-center"> <br>
-                    <!-- <p class="card-title font-weight-bold">Ambientes bien tratantes</p> -->
-                    <small>Ambientes bien tratantes: cultura de buen trato, adultos sensibles, clima de aula, casos
+                    <small>Ambientes bien tratantes: Fomentamos la cultura de buen trato, adultos más sensibles, buen
+                        clima de aula, casos
                         sociales y denuncias.</small>
                 </div>
                 <div class="card-body content-lineAction text-left">
                     <img src="./assets/img/support.svg" alt="" width="100" class="d-flex justify-content-center"> <br>
-                    <!-- <p class="card-title font-weight-bold">Mejora continua</p> -->
-                    <small>Mejora continua: gestión por aprendizajes, reflexión pedagógica, Comunidades profesionales de
+                    <small>Mejora continua: Nos preocupamos por la gestión del aprendizaje, reflexión pedagógica,
+                        Comunidades profesionales de
                         aprendizaje.</small>
                 </div>
                 <div class="card-body content-lineAction text-left">
                     <img src="./assets/img/rules.svg" alt="" width="100" class="d-flex justify-content-center"> <br>
-                    <!-- <p class="card-title font-weight-bold">Sustentabilidad</p> -->
-                    <small>Sustentabilidad: gestión de la asistencia, obtención y mantención de Reconocimiento oficial,
+                    <small>Sustentabilidad: Gestión de la asistencia, obtención y mantención de Reconocimiento oficial,
                         cumplimiento de la normativa.</small>
                 </div>
             </div>
@@ -230,37 +206,41 @@
                                 <div class="d-flex justify-content-center">
                                     <img src="./assets/img/spiritual.svg" alt="" width="100">
                                 </div>
-                                <small>Sello institucional: humanista cristiano, social, valórico y espiritual,
-                                    inclusivo, y que acoge y acompaña a las familias en la formación de sus
-                                    hijos..</small>
+                                <small><strong>Sello institucional:</strong> humanista cristiano, social, inclusivo,
+                                    valórico y espiritual que
+                                    acoge y acompaña a las familias en la formación de sus hijos.</small>
                             </div>
                             <div class="carousel-item">
                                 <div class="d-flex justify-content-center">
                                     <img src="./assets/img/classroom.svg" alt="" width="100">
                                 </div>
-                                <small>Liderazgo Pedagógico: foco en el aula, asesoría sistemática e integral para
-                                    potenciar el aprendizaje.</small>
+                                <small><strong>Liderazgo Pedagógico:</strong> Consideramos el foco en el aula, asesoría
+                                    sistemática e integral para potenciar el
+                                    aprendizaje de los niños.</small>
                             </div>
                             <div class="carousel-item">
                                 <div class="d-flex justify-content-center">
                                     <img src="./assets/img/donation.svg" alt="" width="100">
                                 </div>
-                                <small>Ambientes bien tratantes: cultura de buen trato, adultos sensibles, clima de
-                                    aula, casos sociales y denuncias.</small>
+                                <small><strong>Ambientes bien tratantes:</strong> Fomentamos la cultura de buen trato,
+                                    adultos más sensibles, buen clima de aula, casos
+                                    sociales y denuncias.</small>
                             </div>
                             <div class="carousel-item">
                                 <div class="d-flex justify-content-center">
                                     <img src="./assets/img/support.svg" alt="" width="100">
                                 </div>
-                                <small>Mejora continua: gestión por aprendizajes, reflexión pedagógica, Comunidades
-                                    profesionales de aprendizaje.</small>
+                                <small><strong>Mejora continua:</strong> Nos preocupamos por la gestión del aprendizaje,
+                                    reflexión pedagógica, Comunidades profesionales de
+                                    aprendizaje.</small>
                             </div>
                             <div class="carousel-item">
                                 <div class="d-flex justify-content-center">
                                     <img src="./assets/img/rules.svg" alt="" width="100">
                                 </div>
-                                <small>Sustentabilidad: gestión de la asistencia, obtención y mantención de
-                                    Reconocimiento oficial, cumplimiento de la normativa.</small>
+                                <small><strong>Sustentabilidad:</strong> Gestión de la asistencia, obtención y
+                                    mantención de Reconocimiento oficial,
+                                    cumplimiento de la normativa.</small>
                             </div>
                         </div>
                         <a class="carousel-control-prev " href="#carousel-line-accion" role="button" data-slide="prev">
@@ -281,47 +261,54 @@
 
     <!-- jardines -->
     <section class="pt-5 pb-5" title="Aquí se encuentran los 9 jardines infantiles">
-        <div class="container">
-            <h2 class="text-center"><strong>Sala cuna y Jardines infantiles en 4 regiones</strong></h2>
-            <div class="d-flex justify-content-center">
-                <div class="mt-5">
-                    <ul class="nav mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
-                        <li class="nav-item m-2" role="presentation">
-                            <a class="nav-link active btn-jardines-sm" id="pills-metropolitana-tab" data-toggle="pill" href="#pills-metropolitana" role="tab" aria-controls="pills-metropolitana" aria-selected="true">Region RM</a>
-                        </li>
-                        <li class="nav-item m-2" role="presentation">
-                            <a class="nav-link btn-jardines-sm" id="pills-nuble-tab" data-toggle="pill" href="#pills-nuble" role="tab" aria-controls="pills-nuble" aria-selected="false">Region
-                                Ñuble</a>
-                        </li>
-                        <li class="nav-item m-2" role="presentation">
-                            <a class="nav-link btn-jardines-sm" id="pills-maule-tab" data-toggle="pill" href="#pills-maule" role="tab" aria-controls="pills-maule" aria-selected="false">Region
-                                Maule</a>
-                        </li>
-                        <li class="nav-item m-2" role="presentation">
-                            <a class="nav-link btn-jardines-sm" id="pills-biobio-tab" data-toggle="pill" href="#pills-biobio" role="tab" aria-controls="pills-biobio" aria-selected="false">Region Bio-Bio</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="pills-tabContent">
+        <h2 class="jardines-title"><strong>Sala cuna y Jardines infantiles en 4 regiones</strong></h2>
+        <div class="d-flex justify-content-center seccion-jardines">
+            <div class="mt-5">
+                <ul class="nav mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item m-2" role="presentation">
+                        <a class="nav-link active btn-jardines-sm" id="pills-metropolitana-tab" data-toggle="pill" href="#pills-metropolitana" role="tab" aria-controls="pills-metropolitana" aria-selected="true">Region RM</a>
+                    </li>
+                    <li class="nav-item m-2" role="presentation">
+                        <a class="nav-link btn-jardines-sm" id="pills-nuble-tab" data-toggle="pill" href="#pills-nuble" role="tab" aria-controls="pills-nuble" aria-selected="false">Region
+                            Ñuble</a>
+                    </li>
+                    <li class="nav-item m-2" role="presentation">
+                        <a class="nav-link btn-jardines-sm" id="pills-maule-tab" data-toggle="pill" href="#pills-maule" role="tab" aria-controls="pills-maule" aria-selected="false">Region
+                            Maule</a>
+                    </li>
+                    <li class="nav-item m-2" role="presentation">
+                        <a class="nav-link btn-jardines-sm" id="pills-biobio-tab" data-toggle="pill" href="#pills-biobio" role="tab" aria-controls="pills-biobio" aria-selected="false">Region
+                            Bio-Bio</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
 
-                        <!-- inicio contenido jardines metropolitana -->
-
-                        <div class="tab-pane fade show active mt-5" id="pills-metropolitana" role="tabpanel" aria-labelledby="pills-metropolitana-tab">
-                            <p class="font-weight-bold">Jardines Region Metropolitana</p>
-                            <nav>
-                                <div class="nav mt-4" id="nav-tab" role="tablist">
-                                    <a class="nav-link tab_text " id="nav-jardin1" data-toggle="tab" href="#nav-metropolitana1" role="tab" aria-controls="nav-jardin1" aria-selected="false">Ernesto Pinto</a>
-                                    <a class="nav-link tab_text " id="nav-jardin2" data-toggle="tab" href="#nav-metropolitana2" role="tab" aria-controls="nav-jardin2" aria-selected="false">Ingeniero Luis Falcone</a>
-                                    <a class="nav-link tab_text " id="nav-jardin3" data-toggle="tab" href="#nav-metropolitana3" role="tab" aria-controls="nav-jardin3" aria-selected="false">Niño Jesus de Praga</a>
-                                    <a class="nav-link tab_text " id="nav-jardin4" data-toggle="tab" href="#nav-metropolitana4" role="tab" aria-controls="nav-jardin4" aria-selected="false">Buen Pastor</a>
-                                    <a class="nav-link tab_text " id="nav-jardin5" data-toggle="tab" href="#nav-metropolitana5" role="tab" aria-controls="nav-jardin5" aria-selected="false">San Miguel arcangel</a>
+                    <!------------ INICIO REGION METROPOLITANA ------------>
+                    <div class="tab-pane fade show active mt-5" id="pills-metropolitana" role="tabpanel" aria-labelledby="pills-metropolitana-tab">
+                        <article class="container">
+                            <p class="font-weight-bold text-sm-center text-center text-md-center text-lg-left ">Jardines Region Metropolitana</p>
+                        </article>
+                        <nav>
+                            <div class="nav mt-4" id="nav-tab" role="tablist">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-2 col-xl-2 col-md-4 col-10"><a class="nav-link tab_text" id="nav-jardin1" data-toggle="tab" href="#nav-metropolitana1" role="tab" aria-controls="nav-jardin1" aria-selected="true">Ernesto Pinto<i class="arrow-tabs bi bi-chevron-down pl-5 ml-auto"></i></a></div>
+                                    <div class="col-lg-2 col-xl-2 col-md-4 col-10"><a class="nav-link tab_text" id="nav-jardin2" data-toggle="tab" href="#nav-metropolitana2" role="tab" aria-controls="nav-jardin2" aria-selected="false">Ingeniero Luis Falcone<i class="arrow-tabs bi bi-chevron-down pl-5 ml-auto"></i></a>
+                                    </div>
+                                    <div class="col-lg-2 col-xl-2 col-md-4 col-10"><a class="nav-link tab_text" id="nav-jardin3" data-toggle="tab" href="#nav-metropolitana3" role="tab" aria-controls="nav-jardin3" aria-selected="false">Niño Jesus de Praga<i class="arrow-tabs bi bi-chevron-down pl-5 ml-auto"></i></a>
+                                    </div>
+                                    <div class="col-lg-2 col-xl-2 col-md-4 col-10"><a class="nav-link tab_text" id="nav-jardin4" data-toggle="tab" href="#nav-metropolitana4" role="tab" aria-controls="nav-jardin4" aria-selected="false">Buen Pastor<i class="arrow-tabs bi bi-chevron-down pl-5 ml-auto"></i></a></div>
+                                    <div class="col-lg-2 col-xl-2 col-md-4 col-10"><a class="nav-link tab_text ml-sm-auto" id="nav-jardin5" data-toggle="tab" href="#nav-metropolitana5" role="tab" aria-controls="nav-jardin5" aria-selected="false">San Miguel arcangel<i class="arrow-tabs bi bi-chevron-down pl-5 ml-auto"></i></a>
+                                    </div>
                                 </div>
-                            </nav>
+                            </div>
+                        </nav>
+                        <div class="container">
                             <div class="tab-content mt-4" id="nav-tabContent">
-                                <!-- inicio jardin ernesto pinto interior -->
+                                <!-- inicio jardin ernesto pinto-->
                                 <div class="tab-pane fade" id="nav-metropolitana1" role="tabpanel" aria-labelledby="nav-jardin1">
                                     <div class="row justify-content-center">
-                                        <div class="col-lg-5 col-xl-5 col-md-12 col-12 mb-3">
-                                            <article>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12 mb-3">
+                                            <article class="jardines-parrafo-regular">
                                                 <p class="font-weight-bolder">El Jardín:</p>
                                                 <p><strong>Directora:</strong> Elizabeth Pérez<br>
                                                     <strong>Fono:</strong> +569 3942 6640 / 2 2484 8941<br>
@@ -332,7 +319,7 @@
                                                     <br>
                                                 </p>
                                             </article>
-                                            <article>
+                                            <article class="jardines-parrafo-regular">
                                                 <p class="font-weight-bolder">Equipo Profesional:</p>
                                                 <p>El jardín cuenta con diversos profesionales que aportan en el aprendisaje, salud, higene y desarrollo de los niños.</p>
                                                 <p>El equipo multidisciplinario esta compuesto por: 3 Educadoras de Párvulos. 2 Auxiliar de Párvulo, 2 Asistentes Sociales. 1 Psicopedagoga, Nutricionistas, Auxiliar de aseo, Manipuladoras de alimentos.
@@ -359,65 +346,39 @@
                                                 </div>
                                             </article>
                                         </div>
-                                        <div class="col-lg-7 col-xl-7 col-md-12 col-12">
-                                            <article>
-                                                <span class="font-weight-bolder">¿Donde Queda?</span>
-                                                <span>Avenida Concha y Toro 1898, Puente Alto</span>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Encuentra nuestro Jardín en:</p>
+                                                <p>Avenida Concha y Toro 1898, Puente Alto</p>
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4898708593987!2d-70.58165148479698!3d-33.59259198073346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d71c709c7795%3A0x77ef6fb68974078c!2sAv.%20Concha%20Y%20Toro%201898%2C%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621657419712!5m2!1ses!2scl"
-                                                    width="100%" height="330" style="border:0;" class="rounded mt-3" allowfullscreen="" loading="lazy"></iframe>
+                                                    width="100%" height="330" style="border:0;" class="rounded mt-1" allowfullscreen="" loading="lazy"></iframe>
                                             </article>
-                                            <article>
-                                                <p class="font-weight-bolder">Conoce nuestro jardín</p>
-                                                <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
-                                                    <div class="carousel-inner jardines-contain-img">
-                                                        <div class="carousel-item active carousel_rm_ernestoPinto">
-                                                        </div>
-                                                        <div class="carousel-item carousel_rm_ernestoPinto">
-                                                        </div>
-                                                        <div class="carousel-item carousel_rm_ernestoPinto">
-                                                        </div>
-                                                    </div>
-                                                    <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
-                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                        <span class="sr-only">Previous</span>
-                                                    </a>
-                                                    <a class="carousel-control-next" href="#carousel-Controls" role="button" data-slide="next">
-                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                        <span class="sr-only">Next</span>
-                                                    </a>
-                                                </div>
-                                            </article>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-center">
-                                        <div class="col-xl-8 col-lg-8 col-md-9 col-10">
-                                            <article class="rounded contain-postular mt-3">
+                                            <article class="mt-3 jardines-parrafo-regular">
                                                 <h5 class="font-weight-bolder">¿Como postular?</h5>
                                                 <p>Si quieres postular a tu o tus hij@s en jardin Ernesto Pinto Lagarrigue debes hacer click en el siguiente boton.</p>
                                                 <article class="d-flex justify-content-center"><button type="button" class="btn-jardines">Postular</button></article>
                                             </article>
                                         </div>
                                     </div>
-
                                 </div>
                                 <!-- fin jardin ernesto pinto -->
 
                                 <!-- inicio jardin luis falcone -->
                                 <div class="tab-pane fade" id="nav-metropolitana2" role="tabpanel" aria-labelledby="nav-jardin2">
                                     <div class="row justify-content-center">
-                                        <div class="col-lg-5 col-xl-5 col-md-12 col-12 mb-3">
-                                            <article>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12 mb-3">
+                                            <article class="jardines-parrafo-regular">
                                                 <p class="font-weight-bolder">El Jardín:</p>
                                                 <p><strong>Directora:</strong> Elizabeth Pérez<br>
-                                                    <strong>Fono:</strong>+56 9 3942 6640 / 2 2484 8941<br>
-                                                    <strong>E-mail:</strong> jinfantil.ernestopinto@laprotectora.cl<br>
+                                                    <strong>Fono:</strong> +569 3942 6640 / 2 2484 8941<br>
+                                                    <strong>E-mail:</strong>jinfantil.ernestopinto@laprotectora.cl<br>
                                                     <strong>Niveles:</strong>Medio Mayor - Primer Nivel de Transición.
                                                     <br>
                                                     <strong>Niñ@s p/sala:</strong>20 niños por sala aprox.<br>
                                                     <br>
                                                 </p>
                                             </article>
-                                            <article>
+                                            <article class="jardines-parrafo-regular">
                                                 <p class="font-weight-bolder">Equipo Profesional:</p>
                                                 <p>El jardín cuenta con diversos profesionales que aportan en el aprendisaje, salud, higene y desarrollo de los niños.</p>
                                                 <p>El equipo multidisciplinario esta compuesto por: 3 Educadoras de Párvulos. 2 Auxiliar de Párvulo, 2 Asistentes Sociales. 1 Psicopedagoga, Nutricionistas, Auxiliar de aseo, Manipuladoras de alimentos.
@@ -444,39 +405,14 @@
                                                 </div>
                                             </article>
                                         </div>
-                                        <div class="col-lg-7 col-xl-7 col-md-12 col-12">
-                                            <article>
-                                                <span class="font-weight-bolder">¿Donde Queda?</span>
-                                                <span>Avenida Concha y Toro 1898, Puente Alto</span>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Encuentra nuestro Jardín en:</p>
+                                                <p>Avenida Concha y Toro 1898, Puente Alto</p>
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4898708593987!2d-70.58165148479698!3d-33.59259198073346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d71c709c7795%3A0x77ef6fb68974078c!2sAv.%20Concha%20Y%20Toro%201898%2C%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621657419712!5m2!1ses!2scl"
-                                                    width="100%" height="330" style="border:0;" class="rounded mt-3" allowfullscreen="" loading="lazy"></iframe>
+                                                    width="100%" height="330" style="border:0;" class="rounded mt-1" allowfullscreen="" loading="lazy"></iframe>
                                             </article>
-                                            <article>
-                                                <p class="font-weight-bolder">Conoce nuestro jardín</p>
-                                                <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
-                                                    <div class="carousel-inner jardines-contain-img">
-                                                        <div class="carousel-item active carousel_rm_luisFalcone">
-                                                        </div>
-                                                        <div class="carousel-item carousel_rm_luisFalcone">
-                                                        </div>
-                                                        <div class="carousel-item carousel_rm_luisFalcone">
-                                                        </div>
-                                                    </div>
-                                                    <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
-                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                        <span class="sr-only">Previous</span>
-                                                    </a>
-                                                    <a class="carousel-control-next" href="#carousel-Controls" role="button" data-slide="next">
-                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                        <span class="sr-only">Next</span>
-                                                    </a>
-                                                </div>
-                                            </article>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-center">
-                                        <div class="col-xl-8 col-lg-8 col-md-9 col-10">
-                                            <article class="rounded contain-postular mt-3">
+                                            <article class="mt-3 jardines-parrafo-regular">
                                                 <h5 class="font-weight-bolder">¿Como postular?</h5>
                                                 <p>Si quieres postular a tu o tus hij@s en jardin Ernesto Pinto Lagarrigue debes hacer click en el siguiente boton.</p>
                                                 <article class="d-flex justify-content-center"><button type="button" class="btn-jardines">Postular</button></article>
@@ -489,19 +425,19 @@
                                 <!-- inicio jardin niño jesus -->
                                 <div class="tab-pane fade" id="nav-metropolitana3" role="tabpanel" aria-labelledby="nav-jardin3">
                                     <div class="row justify-content-center">
-                                        <div class="col-lg-5 col-xl-5 col-md-12 col-12 mb-3">
-                                            <article>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12 mb-3">
+                                            <article class="jardines-parrafo-regular">
                                                 <p class="font-weight-bolder">El Jardín:</p>
                                                 <p><strong>Directora:</strong> Elizabeth Pérez<br>
-                                                    <strong>Fono:</strong>+56 9 3942 6640 / 2 2484 8941<br>
-                                                    <strong>E-mail:</strong> jinfantil.ernestopinto@laprotectora.cl<br>
+                                                    <strong>Fono:</strong> +569 3942 6640 / 2 2484 8941<br>
+                                                    <strong>E-mail:</strong>jinfantil.ernestopinto@laprotectora.cl<br>
                                                     <strong>Niveles:</strong>Medio Mayor - Primer Nivel de Transición.
                                                     <br>
                                                     <strong>Niñ@s p/sala:</strong>20 niños por sala aprox.<br>
                                                     <br>
                                                 </p>
                                             </article>
-                                            <article>
+                                            <article class="jardines-parrafo-regular">
                                                 <p class="font-weight-bolder">Equipo Profesional:</p>
                                                 <p>El jardín cuenta con diversos profesionales que aportan en el aprendisaje, salud, higene y desarrollo de los niños.</p>
                                                 <p>El equipo multidisciplinario esta compuesto por: 3 Educadoras de Párvulos. 2 Auxiliar de Párvulo, 2 Asistentes Sociales. 1 Psicopedagoga, Nutricionistas, Auxiliar de aseo, Manipuladoras de alimentos.
@@ -528,22 +464,52 @@
                                                 </div>
                                             </article>
                                         </div>
-                                        <div class="col-lg-7 col-xl-7 col-md-12 col-12">
-                                            <article>
-                                                <span class="font-weight-bolder">¿Donde Queda?</span>
-                                                <span>Avenida Concha y Toro 1898, Puente Alto</span>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Encuentra nuestro Jardín en:</p>
+                                                <p>Avenida Concha y Toro 1898, Puente Alto</p>
                                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4898708593987!2d-70.58165148479698!3d-33.59259198073346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d71c709c7795%3A0x77ef6fb68974078c!2sAv.%20Concha%20Y%20Toro%201898%2C%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621657419712!5m2!1ses!2scl"
-                                                    width="100%" height="330" style="border:0;" class="rounded mt-3" allowfullscreen="" loading="lazy"></iframe>
+                                                    width="100%" height="330" style="border:0;" class="rounded mt-1" allowfullscreen="" loading="lazy"></iframe>
+                                            </article>
+                                            <article class="mt-3 jardines-parrafo-regular">
+                                                <h5 class="font-weight-bolder">¿Como postular?</h5>
+                                                <p>Si quieres postular a tu o tus hij@s en jardin Ernesto Pinto Lagarrigue debes hacer click en el siguiente boton.</p>
+                                                <article class="d-flex justify-content-center"><button type="button" class="btn-jardines">Postular</button></article>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- fin jardin niño jesus -->
+
+                                <!-- inicio jardin Buen pastor -->
+                                <div class="tab-pane fade" id="nav-metropolitana4" role="tabpanel" aria-labelledby="nav-jardin4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12 mb-3">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">El Jardín:</p>
+                                                <p><strong>Directora:</strong> Elizabeth Pérez<br>
+                                                    <strong>Fono:</strong> +569 3942 6640 / 2 2484 8941<br>
+                                                    <strong>E-mail:</strong>jinfantil.ernestopinto@laprotectora.cl<br>
+                                                    <strong>Niveles:</strong>Medio Mayor - Primer Nivel de Transición.
+                                                    <br>
+                                                    <strong>Niñ@s p/sala:</strong>20 niños por sala aprox.<br>
+                                                    <br>
+                                                </p>
+                                            </article>
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Equipo Profesional:</p>
+                                                <p>El jardín cuenta con diversos profesionales que aportan en el aprendisaje, salud, higene y desarrollo de los niños.</p>
+                                                <p>El equipo multidisciplinario esta compuesto por: 3 Educadoras de Párvulos. 2 Auxiliar de Párvulo, 2 Asistentes Sociales. 1 Psicopedagoga, Nutricionistas, Auxiliar de aseo, Manipuladoras de alimentos.
+                                                </p>
                                             </article>
                                             <article>
-                                                <p class="font-weight-bolder">Conoce nuestro jardín</p>
                                                 <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
                                                     <div class="carousel-inner jardines-contain-img">
-                                                        <div class="carousel-item active carousel_rm_luisFalcone">
+                                                        <div class="carousel-item active carousel_rm_ernestoPinto">
                                                         </div>
-                                                        <div class="carousel-item carousel_rm_luisFalcone">
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
                                                         </div>
-                                                        <div class="carousel-item carousel_rm_luisFalcone">
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
                                                         </div>
                                                     </div>
                                                     <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
@@ -557,10 +523,14 @@
                                                 </div>
                                             </article>
                                         </div>
-                                    </div>
-                                    <div class="row justify-content-center">
-                                        <div class="col-xl-8 col-lg-8 col-md-9 col-10">
-                                            <article class="rounded contain-postular mt-3">
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Encuentra nuestro Jardín en:</p>
+                                                <p>Avenida Concha y Toro 1898, Puente Alto</p>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4898708593987!2d-70.58165148479698!3d-33.59259198073346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d71c709c7795%3A0x77ef6fb68974078c!2sAv.%20Concha%20Y%20Toro%201898%2C%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621657419712!5m2!1ses!2scl"
+                                                    width="100%" height="330" style="border:0;" class="rounded mt-1" allowfullscreen="" loading="lazy"></iframe>
+                                            </article>
+                                            <article class="mt-3 jardines-parrafo-regular">
                                                 <h5 class="font-weight-bolder">¿Como postular?</h5>
                                                 <p>Si quieres postular a tu o tus hij@s en jardin Ernesto Pinto Lagarrigue debes hacer click en el siguiente boton.</p>
                                                 <article class="d-flex justify-content-center"><button type="button" class="btn-jardines">Postular</button></article>
@@ -568,33 +538,397 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- fin jardin niño jesus -->
-
-                                <!-- inicio jardin Buen pastor -->
-                                <div class="tab-pane fade" id="nav-metropolitana4" role="tabpanel" aria-labelledby="nav-jardin4">Buen Pastor</div>
                                 <!-- fin jardin Buen pastor -->
 
                                 <!-- inicio jardin miguel arcangel -->
-                                <div class="tab-pane fade" id="nav-metropolitana5" role="tabpanel" aria-labelledby="nav-jardin5">San Miguel arcangel</div>
+                                <div class="tab-pane fade" id="nav-metropolitana5" role="tabpanel" aria-labelledby="nav-jardin5">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12 mb-3">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">El Jardín:</p>
+                                                <p><strong>Directora:</strong> Elizabeth Pérez<br>
+                                                    <strong>Fono:</strong> +569 3942 6640 / 2 2484 8941<br>
+                                                    <strong>E-mail:</strong>jinfantil.ernestopinto@laprotectora.cl<br>
+                                                    <strong>Niveles:</strong>Medio Mayor - Primer Nivel de Transición.
+                                                    <br>
+                                                    <strong>Niñ@s p/sala:</strong>20 niños por sala aprox.<br>
+                                                    <br>
+                                                </p>
+                                            </article>
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Equipo Profesional:</p>
+                                                <p>El jardín cuenta con diversos profesionales que aportan en el aprendisaje, salud, higene y desarrollo de los niños.</p>
+                                                <p>El equipo multidisciplinario esta compuesto por: 3 Educadoras de Párvulos. 2 Auxiliar de Párvulo, 2 Asistentes Sociales. 1 Psicopedagoga, Nutricionistas, Auxiliar de aseo, Manipuladoras de alimentos.
+                                                </p>
+                                            </article>
+                                            <article>
+                                                <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner jardines-contain-img">
+                                                        <div class="carousel-item active carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carousel-Controls" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Encuentra nuestro Jardín en:</p>
+                                                <p>Avenida Concha y Toro 1898, Puente Alto</p>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4898708593987!2d-70.58165148479698!3d-33.59259198073346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d71c709c7795%3A0x77ef6fb68974078c!2sAv.%20Concha%20Y%20Toro%201898%2C%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621657419712!5m2!1ses!2scl"
+                                                    width="100%" height="330" style="border:0;" class="rounded mt-1" allowfullscreen="" loading="lazy"></iframe>
+                                            </article>
+                                            <article class="mt-3 jardines-parrafo-regular">
+                                                <h5 class="font-weight-bolder">¿Como postular?</h5>
+                                                <p>Si quieres postular a tu o tus hij@s en jardin Ernesto Pinto Lagarrigue debes hacer click en el siguiente boton.</p>
+                                                <article class="d-flex justify-content-center"><button type="button" class="btn-jardines">Postular</button></article>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- fin jardin miguel arcangel -->
                             </div>
-                            <div title="Mapa jardines infantiles region metropolitana" class="d-flex justify-content-center">
-                                <img src="./assets/img/map-region-rm.png" alt="" width="90%">
-                                <!-- <img src="./assets/img/map-region-rm.png" alt="Mapa jardines infantiles region metropolitana" class="map-metropolitana"> -->
+
+                            <!-- mapa desktop y tablet -->
+                            <div title="Mapa jardines infantiles region metropolitana" class="d-flex justify-content-center d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                                <img src="./assets/img/map-region-rm.png" alt="" width="100%">
+                            </div>
+                            <!-- mapa mobile -->
+                            <div title="Mapa jardines infantiles region metropolitana" class="d-flex justify-content-center d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                                <img src="./assets/img/map-region-rm-mobile.png" alt="" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <!------------ FIN REGION METROPOLITANA ------------>
+
+                    <!------------ INICIO REGION ÑUBLE --------------->
+                    <div class="tab-pane fade mt-5" id="pills-nuble" role="tabpanel" aria-labelledby="pills-nuble-tab">
+                        <article class="container">
+                            <p class="font-weight-bold text-sm-center text-center text-md-center text-lg-left ">Jardines Region de Ñuble</p>
+                        </article>
+                        <nav>
+                            <div class="nav mt-4 d-flex justify-content-center justify-content-lg-start justify-content-xl-start justify-content-md-start" id="nav-tab" role="tablist">
+                                <div class=""><a class="nav-link tab_text_two" id="nav-jardin6" data-toggle="tab" href="#nav-nuble6" role="tab" aria-controls="nav-jardin6" aria-selected="true">San José<i class="arrow-tabs bi bi-chevron-down pl-5 ml-auto"></i></a></div>
+                                <div class=""><a class="nav-link tab_text_two" id="nav-jardin7" data-toggle="tab" href="#nav-nuble7" role="tab" aria-controls="nav-jardin7" aria-selected="false">Buen Pastor<i class="arrow-tabs bi bi-chevron-down pl-5 ml-auto"></i></a></div>
+                            </div>
+                        </nav>
+                        <div class="container">
+                            <div class="tab-content mt-4" id="nav-tabContent">
+                                <!-- inicio jardin San jose -->
+                                <div class="tab-pane fade" id="nav-nuble6" role="tabpanel" aria-labelledby="nav-jardin6">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12 mb-3">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">El Jardín:</p>
+                                                <p><strong>Directora:</strong> Elizabeth Pérez<br>
+                                                    <strong>Fono:</strong> +569 3942 6640 / 2 2484 8941<br>
+                                                    <strong>E-mail:</strong>jinfantil.ernestopinto@laprotectora.cl<br>
+                                                    <strong>Niveles:</strong>Medio Mayor - Primer Nivel de Transición.
+                                                    <br>
+                                                    <strong>Niñ@s p/sala:</strong>20 niños por sala aprox.<br>
+                                                    <br>
+                                                </p>
+                                            </article>
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Equipo Profesional:</p>
+                                                <p>El jardín cuenta con diversos profesionales que aportan en el aprendisaje, salud, higene y desarrollo de los niños.</p>
+                                                <p>El equipo multidisciplinario esta compuesto por: 3 Educadoras de Párvulos. 2 Auxiliar de Párvulo, 2 Asistentes Sociales. 1 Psicopedagoga, Nutricionistas, Auxiliar de aseo, Manipuladoras de alimentos.
+                                                </p>
+                                            </article>
+                                            <article>
+                                                <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner jardines-contain-img">
+                                                        <div class="carousel-item active carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carousel-Controls" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Encuentra nuestro Jardín en:</p>
+                                                <p>Avenida Concha y Toro 1898, Puente Alto</p>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4898708593987!2d-70.58165148479698!3d-33.59259198073346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d71c709c7795%3A0x77ef6fb68974078c!2sAv.%20Concha%20Y%20Toro%201898%2C%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621657419712!5m2!1ses!2scl"
+                                                    width="100%" height="330" style="border:0;" class="rounded mt-1" allowfullscreen="" loading="lazy"></iframe>
+                                            </article>
+                                            <article class="mt-3 jardines-parrafo-regular">
+                                                <h5 class="font-weight-bolder">¿Como postular?</h5>
+                                                <p>Si quieres postular a tu o tus hij@s en jardin Ernesto Pinto Lagarrigue debes hacer click en el siguiente boton.</p>
+                                                <article class="d-flex justify-content-center"><button type="button" class="btn-jardines">Postular</button></article>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- fin jardin San Jose -->
+
+                                <!-- inicio jardin Buen pastor -->
+                                <div class="tab-pane fade" id="nav-nuble7" role="tabpanel" aria-labelledby="nav-jardin7">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12 mb-3">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">El Jardín:</p>
+                                                <p><strong>Directora:</strong> Elizabeth Pérez<br>
+                                                    <strong>Fono:</strong> +569 3942 6640 / 2 2484 8941<br>
+                                                    <strong>E-mail:</strong>jinfantil.ernestopinto@laprotectora.cl<br>
+                                                    <strong>Niveles:</strong>Medio Mayor - Primer Nivel de Transición.
+                                                    <br>
+                                                    <strong>Niñ@s p/sala:</strong>20 niños por sala aprox.<br>
+                                                    <br>
+                                                </p>
+                                            </article>
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Equipo Profesional:</p>
+                                                <p>El jardín cuenta con diversos profesionales que aportan en el aprendisaje, salud, higene y desarrollo de los niños.</p>
+                                                <p>El equipo multidisciplinario esta compuesto por: 3 Educadoras de Párvulos. 2 Auxiliar de Párvulo, 2 Asistentes Sociales. 1 Psicopedagoga, Nutricionistas, Auxiliar de aseo, Manipuladoras de alimentos.
+                                                </p>
+                                            </article>
+                                            <article>
+                                                <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner jardines-contain-img">
+                                                        <div class="carousel-item active carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carousel-Controls" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Encuentra nuestro Jardín en:</p>
+                                                <p>Avenida Concha y Toro 1898, Puente Alto</p>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4898708593987!2d-70.58165148479698!3d-33.59259198073346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d71c709c7795%3A0x77ef6fb68974078c!2sAv.%20Concha%20Y%20Toro%201898%2C%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621657419712!5m2!1ses!2scl"
+                                                    width="100%" height="330" style="border:0;" class="rounded mt-1" allowfullscreen="" loading="lazy"></iframe>
+                                            </article>
+                                            <article class="mt-3 jardines-parrafo-regular">
+                                                <h5 class="font-weight-bolder">¿Como postular?</h5>
+                                                <p>Si quieres postular a tu o tus hij@s en jardin Ernesto Pinto Lagarrigue debes hacer click en el siguiente boton.</p>
+                                                <article class="d-flex justify-content-center"><button type="button" class="btn-jardines">Postular</button></article>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- fin jardin Buen pastor -->
+
                             </div>
 
+                            <!-- mapa desktop y tablet -->
+                            <div title="Mapa jardines infantiles region metropolitana" class="d-flex justify-content-center d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                                <img src="./assets/img/map-region-nuble.png" alt="" width="100%">
+                            </div>
+                            <!-- mapa mobile -->
+                            <div title="Mapa jardines infantiles region metropolitana" class="d-flex justify-content-center d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                                <img src="./assets/img/map-region-nuble-mobile.png" alt="" width="100%">
+                            </div>
                         </div>
-                        <!-- fin contenido jardines metropolitana -->
-
-                        <!-- inicio jardines de ñuble -->
-                        <div class="tab-pane fade" id="pills-nuble" role="tabpanel" aria-labelledby="pills-nuble-tab">2
-                        </div>
-                        <!-- fin jardines de ñuble -->
-                        <div class="tab-pane fade" id="pills-maule" role="tabpanel" aria-labelledby="pills-maule-tab">3
-                        </div>
-                        <div class="tab-pane fade" id="pills-biobio" role="tabpanel" aria-labelledby="pills-biobio-tab">
-                            4</div>
                     </div>
+                    <!------------ FIN REGION ÑUBLE ------------>
+
+                    <!------------ INICIO REGION MAULE ------------>
+                    <div class="tab-pane fade mt-5" id="pills-maule" role="tabpanel" aria-labelledby="pills-maule-tab">
+                        <article class="container">
+                            <p class="font-weight-bold text-sm-center text-center text-md-center text-lg-left ">Jardines Region de Ñuble</p>
+                        </article>
+                        <nav>
+                            <div class="nav mt-4 d-flex justify-content-center justify-content-lg-start justify-content-xl-start justify-content-md-start" id="nav-tab" role="tablist">
+                                <div class=""><a class="nav-link tab_text_two" id="nav-jardin8" data-toggle="tab" href="#nav-maule8" role="tab" aria-controls="nav-jardin8" aria-selected="true">San José<i class="arrow-tabs bi bi-chevron-down pl-5 ml-auto"></i></a></div>
+
+                            </div>
+                        </nav>
+                        <div class="container">
+                            <div class="tab-content mt-4" id="nav-tabContent">
+                                <!-- inicio jardin dominga cuellar -->
+                                <div class="tab-pane fade" id="nav-maule8" role="tabpanel" aria-labelledby="nav-jardin8">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12 mb-3">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">El Jardín:</p>
+                                                <p><strong>Directora:</strong> Elizabeth Pérez<br>
+                                                    <strong>Fono:</strong> +569 3942 6640 / 2 2484 8941<br>
+                                                    <strong>E-mail:</strong>jinfantil.ernestopinto@laprotectora.cl<br>
+                                                    <strong>Niveles:</strong>Medio Mayor - Primer Nivel de Transición.
+                                                    <br>
+                                                    <strong>Niñ@s p/sala:</strong>20 niños por sala aprox.<br>
+                                                    <br>
+                                                </p>
+                                            </article>
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Equipo Profesional:</p>
+                                                <p>El jardín cuenta con diversos profesionales que aportan en el aprendisaje, salud, higene y desarrollo de los niños.</p>
+                                                <p>El equipo multidisciplinario esta compuesto por: 3 Educadoras de Párvulos. 2 Auxiliar de Párvulo, 2 Asistentes Sociales. 1 Psicopedagoga, Nutricionistas, Auxiliar de aseo, Manipuladoras de alimentos.
+                                                </p>
+                                            </article>
+                                            <article>
+                                                <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner jardines-contain-img">
+                                                        <div class="carousel-item active carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carousel-Controls" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Encuentra nuestro Jardín en:</p>
+                                                <p>Avenida Concha y Toro 1898, Puente Alto</p>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4898708593987!2d-70.58165148479698!3d-33.59259198073346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d71c709c7795%3A0x77ef6fb68974078c!2sAv.%20Concha%20Y%20Toro%201898%2C%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621657419712!5m2!1ses!2scl"
+                                                    width="100%" height="330" style="border:0;" class="rounded mt-1" allowfullscreen="" loading="lazy"></iframe>
+                                            </article>
+                                            <article class="mt-3 jardines-parrafo-regular">
+                                                <h5 class="font-weight-bolder">¿Como postular?</h5>
+                                                <p>Si quieres postular a tu o tus hij@s en jardin Ernesto Pinto Lagarrigue debes hacer click en el siguiente boton.</p>
+                                                <article class="d-flex justify-content-center"><button type="button" class="btn-jardines">Postular</button></article>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- fin jardin dominga cuellar -->
+
+                            </div>
+
+                            <!-- mapa desktop y tablet -->
+                            <div title="Mapa jardines infantiles region metropolitana" class="d-flex justify-content-center d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                                <img src="./assets/img/map-region-maule.png" alt="" width="100%">
+                            </div>
+                            <!-- mapa mobile -->
+                            <div title="Mapa jardines infantiles region metropolitana" class="d-flex justify-content-center d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                                <img src="./assets/img/map-region-maule-mobile.png" alt="" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <!------------ FIN REGION MAULE ------------>
+
+                    <!------------ INICIO REGION BIOBIO ------------>
+                    <div class="tab-pane fade mt-5" id="pills-biobio" role="tabpanel" aria-labelledby="pills-biobio-tab">
+                        <article class="container">
+                            <p class="font-weight-bold text-sm-center text-center text-md-center text-lg-left ">Jardin Region de BíoBío</p>
+                        </article>
+                        <nav>
+                            <div class="nav mt-4 d-flex justify-content-center justify-content-lg-start justify-content-xl-start justify-content-md-start" id="nav-tab" role="tablist">
+                                <div class=""><a class="nav-link tab_text_two" id="nav-jardin9" data-toggle="tab" href="#nav-biobio9" role="tab" aria-controls="nav-jardin9" aria-selected="false">Nuestra Sra. del Pilar<i class="arrow-tabs bi bi-chevron-down pl-5 ml-auto"></i></a></div>
+
+                            </div>
+                        </nav>
+                        <div class="container">
+                            <div class="tab-content mt-4" id="nav-tabContent">
+                                <!-- inicio jardin nuestra señora del pilar -->
+                                <div class="tab-pane fade" id="nav-biobio9" role="tabpanel" aria-labelledby="nav-jardin9">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12 mb-3">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">El Jardín:</p>
+                                                <p><strong>Directora:</strong> Elizabeth Pérez<br>
+                                                    <strong>Fono:</strong> +569 3942 6640 / 2 2484 8941<br>
+                                                    <strong>E-mail:</strong>jinfantil.ernestopinto@laprotectora.cl<br>
+                                                    <strong>Niveles:</strong>Medio Mayor - Primer Nivel de Transición.
+                                                    <br>
+                                                    <strong>Niñ@s p/sala:</strong>20 niños por sala aprox.<br>
+                                                    <br>
+                                                </p>
+                                            </article>
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Equipo Profesional:</p>
+                                                <p>El jardín cuenta con diversos profesionales que aportan en el aprendisaje, salud, higene y desarrollo de los niños.</p>
+                                                <p>El equipo multidisciplinario esta compuesto por: 3 Educadoras de Párvulos. 2 Auxiliar de Párvulo, 2 Asistentes Sociales. 1 Psicopedagoga, Nutricionistas, Auxiliar de aseo, Manipuladoras de alimentos.
+                                                </p>
+                                            </article>
+                                            <article>
+                                                <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner jardines-contain-img">
+                                                        <div class="carousel-item active carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                        <div class="carousel-item carousel_rm_ernestoPinto">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carousel-Controls" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-6 col-md-12 col-12">
+                                            <article class="jardines-parrafo-regular">
+                                                <p class="font-weight-bolder">Encuentra nuestro Jardín en:</p>
+                                                <p>Avenida Concha y Toro 1898, Puente Alto</p>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4898708593987!2d-70.58165148479698!3d-33.59259198073346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d71c709c7795%3A0x77ef6fb68974078c!2sAv.%20Concha%20Y%20Toro%201898%2C%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1621657419712!5m2!1ses!2scl"
+                                                    width="100%" height="330" style="border:0;" class="rounded mt-1" allowfullscreen="" loading="lazy"></iframe>
+                                            </article>
+                                            <article class="mt-3 jardines-parrafo-regular">
+                                                <h5 class="font-weight-bolder">¿Como postular?</h5>
+                                                <p>Si quieres postular a tu o tus hij@s en jardin Ernesto Pinto Lagarrigue debes hacer click en el siguiente boton.</p>
+                                                <article class="d-flex justify-content-center"><button type="button" class="btn-jardines">Postular</button></article>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- fin jardin nuestra señora del pilar -->
+
+                            </div>
+
+                            <!-- mapa desktop y tablet -->
+                            <div title="Mapa jardines infantiles region metropolitana" class="d-flex justify-content-center d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                                <img src="./assets/img/map-region-biobio.png" alt="" width="100%">
+                            </div>
+                            <!-- mapa mobile -->
+                            <div title="Mapa jardines infantiles region metropolitana" class="d-flex justify-content-center d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                                <img src="./assets/img/map-region-biobio-mobile.png" alt="" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <!------------ FIN REGION BIOBIO ------------>
+
                 </div>
             </div>
         </div>
@@ -603,17 +937,20 @@
     <!-- hight scope -->
     <section title="Información sobre metodologia Hight Scope" class="section_higth_scope">
         <div class="container">
-            <h1 class="text-center mt-3 mb-3">Nuestro foco en Educación Parvularia</h1>
+            <h1 class="jardines-title mt-3 mb-3">Nuestro foco en Educación Parvularia</h1>
             <div class="row align-items-center">
-                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
-                    <p>El área Educación Inicial tiene como misión entregar <strong> educación integral de
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <p class="jardines-parrafo-regular">El área Educación Inicial tiene como misión entregar <strong>
+                            educación integral de
                             calidad</strong> a niños y niñas entre 84 días y 4 años 11 meses, a través de un <strong>
                             proyecto educativo valórico e inclusivo, cuya propuesta metodológica es High Scope,</strong> donde se promueven experiencias de aprendizajes desafiantes, pertinentes e integrales.</p>
-                    <p> Año a año, más de 1350 niños y niñas, son beneficiados gracias al trabajo de toda la comunidad que trabaja por un Chile solidario.</p>
-                    <div class="d-flex justify-content-lg-end justify-content-sm-center mb-2"><button type="button" class="btn-jardines">Conoce Más</button></div>
+                    <p class="jardines-parrafo-regular"> Año a año, más de 1350 niños y niñas, son beneficiados gracias al trabajo de toda la comunidad que trabaja por un Chile solidario.</p>
+                    <div class="d-flex justify-content-lg-end justify-content-xl-end justify-content-center mb-2">
+                        <button type="button" class="btn-jardines">Conoce Más</button>
+                    </div>
                 </div>
-                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
-                    <article class="d-flex justify-content-center mt-2"><img src="./assets/img/ruedahighscope.png" width="55%" alt=""></article>
+                <div class="col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                    <article class="d-flex justify-content-center mt-2"><img src="./assets/img/ruedahighscope.png" width="45%" alt=""></article>
                     <p class="text-center"><small>Rueda del aprendizaje High Scope</small></p>
                 </div>
             </div>
@@ -621,42 +958,39 @@
     </section>
 
     <!-- voluntariado -->
-    <section title="area de voluntariado, click en el boton para ver más">
-        <div class="container section_voluntariado mt-3 mb-5">
-            <h2 class="text-center mb-5"><strong>Conoce el voluntariado de Jardines</strong></h2>
-            <div class="row">
-                <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-12">
-                    <img src="https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="rounded mx-auto d-block w-100">
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-3 col-12">
-                    <img src="https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 " alt=" " class="rounded mx-auto d-block w-100">
-                </div> 
-             <div class="col-xl-4 col-lg-4 col-md-6 col-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit in nobis at eum ut tempore ducimus omnis modi nulla similique. Commodi quia corrupti illo dolorem natus iusto illum quo ab! Impedit in nobis at eum ut tempore ducimus
-                        omnis modi nulla similique. Commodi quia corrupti illo dolorem natus iusto illum.</p>
-                    <button type="button" class="btn-jardines">Ver voluntariado</button></div>
-            </div>-->
-                <div class="col-xl-8 col-lg-8 col-md-6 col-12">
-                    <article class="voluntariado_img rounded"></article>
-                    <!-- <img src="https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="rounded mx-auto d-block w-100"> -->
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit in nobis at eum ut tempore ducimus omnis modi nulla similique. Commodi quia corrupti illo dolorem natus iusto illum quo ab! Impedit in nobis at eum ut tempore ducimus
-                        omnis modi nulla similique. Commodi quia corrupti illo dolorem natus iusto illum.</p>
-                    <button type="button" class="btn-jardines">Ver voluntariado</button>
-                </div>
+    <section title="area de voluntariado, click en el boton para ver más" class="section_voluntariado">
+        <div class="container d-flex justify-content-center">
+            <div class="voluntariado_content">
+                <article class="">
+                    <h2 class="jardines-title mb-4 mt-2"><strong>Conoce el voluntariado de Jardines</strong></h2>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                            <article class="voluntariado_img rounded"></article>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                            <article class="voluntariado_img rounded"></article>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                            <p class="jardines-parrafo-regular">El voluntariado de La Protectora busca abrir espacios de vinculación en los distintos sectores de la sociedad, para así juntos, ir desarrollando una mayor consciencia y compromiso social con la infancia, libre de discriminación
+                                y participativa, para combatir juntos la pobreza en Chile.</p>
+                            <div class="d-flex justify-content-lg-start justify-content-xl-start justify-content-center mb-2">
+                                <button type="button" class="btn-jardines">Ver voluntariado</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
 
     <!-- preguntas frecuentes-->
     <section id="preguntasFrecuentes" class="section_frequent_questions" title="Preguntas frecuentes">
-        <div class="container mt-5 mb-5">
-            <h2 class="text-xl-left text-lg-left text-md-left text-sm-center mt-2 mb-2"><strong>Preguntas
+        <div class="container mb-5">
+            <h2 class="jardines-title mt-2 mb-2"><strong>Preguntas
                     Frecuentes</strong>
             </h2>
             <div class="row">
-                <div class="col-xl-8 col-lg-8 col-md-9 col-12">
+                <div class="col-xl-8 col-lg-8 col-12">
                     <div class="accordion mb-3" id="accordionExample">
                         <div class="card">
                             <div class="" id="headingOne">
@@ -665,7 +999,6 @@
                                         class="bi bi-chevron-down pl-5 ml-auto"></i>
                                 </button>
                             </div>
-
                             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <small class="text-muted">Debe postular a traves de nuestro sitio web,
@@ -719,7 +1052,8 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-3 col-12 d-flex justify-content-center">
-                    <img src="./assets/img/FAQ.svg" alt="" width="60%">
+                    <article class="d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                        <img src="./assets/img/FAQ.svg" alt="" width="60%"></article>
                 </div>
             </div>
         </div>

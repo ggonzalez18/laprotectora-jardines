@@ -1,0 +1,20 @@
+@media screen and (min-width: 992px) {
+    .tab_text {
+        min-width: 200px;
+    }
+    .arrow-tabs {
+        display: none;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 640px) {
+    .jardines-title {
+        font-size: 22px;
+    }
+    .jardines-parrafo-regular {
+        font-size: 15px;
+    }
+    .tab_text_two {
+        min-width: 150px;
+    }
+}
