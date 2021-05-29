@@ -5,6 +5,12 @@
     .arrow-tabs {
         display: none;
     }
+    .card-float-scope {
+        margin: -250px 0px 0px 0px;
+    }
+    .higth-scope-text-card {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 0px) and (max-width: 640px) {
