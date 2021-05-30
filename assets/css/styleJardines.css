@@ -321,6 +321,12 @@
         border-bottom: 75px solid #E1E6EF;
     }
     
+    .content-card-float-home {
+        min-height: 350px;
+        border-top: 35px solid #E1E6EF;
+        border-bottom: 35px solid #E1E6EF;
+    }
+    
     .voluntariado_img {
         background-image: url("../img/voluntariado_laprotectora.jpg");
         background-size: cover;
@@ -328,6 +334,16 @@
         background-repeat: no-repeat;
         width: 100%;
         min-height: 220px;
+    }
+    
+    .home-video {
+        background-image: url("../img/video-home.png");
+        background-size: cover;
+        position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 300px;
+        border-radius: 55px 55px 55px 55px;
     }
     
     .card-float {
@@ -341,7 +357,18 @@
         padding: 20px;
     }
     
-    .content-card-float-home {
+    .card-float-home {
+        background: none repeat scroll 0 0 #ffffff;
+        border: 1px solid #ebebeb;
+        border-radius: 55px 55px 55px 55px;
+        box-shadow: 0 10px 12px -5px #a5a5a5;
+        min-height: 350px;
+        margin: -50px 0px 0px 0px;
+        width: 95%;
+        padding: 20px;
+    }
+    
+    .content-banner-float-home {
         min-height: 250px;
         margin: 0px 0px -50px 0px;
         width: 100%;
@@ -354,8 +381,16 @@
         border-radius: 55px 55px 55px 55px;
         box-shadow: 0 10px 12px -5px #a5a5a5;
         min-height: 250px;
-        /* width: 90%; */
         padding: 20px;
+        margin: 15px 10px;
+    }
+    
+    .card-float-interior-with-img {
+        background: none repeat scroll 0 0 #ffffff;
+        border: 1px solid #ebebeb;
+        border-radius: 55px 55px 55px 55px;
+        box-shadow: 0 10px 12px -5px #a5a5a5;
+        min-height: 250px;
         margin: 15px 10px;
     }
     
