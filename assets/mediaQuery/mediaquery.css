@@ -13,6 +13,21 @@
     }
 }
 
+@media (min-width: 640px) and (max-width: 992px) {
+    .banner-btn-home,
+    .banner-btn-home-green {
+        padding: .5rem .5rem;
+        font-size: 14px;
+        margin: 0px 5px;
+        width: 180px;
+        border-radius: 4px 4px 0px 0px;
+    }
+    .banner-btn-home-green:hover,
+    .banner-btn-home:hover {
+        font-size: 15px;
+    }
+}
+
 @media (min-width: 0px) and (max-width: 640px) {
     .jardines-title {
         font-size: 22px;
