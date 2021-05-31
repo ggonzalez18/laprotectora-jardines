@@ -28,6 +28,16 @@
         font-size: 16px;
     }
     
+    .subtitle-site-title {
+        color: #474646;
+        font-size: 28px;
+    }
+    
+    .subtitle-site-parrafo {
+        color: #474646;
+        font-size: 18px;
+    }
+    
     .parrafo-small-blue {
         color: #164284;
         font-size: 12px;
@@ -149,7 +159,7 @@
         font-size: 36px;
         margin: 0;
         font-weight: 500;
-        text-shadow: 25px -25px 25px -25px rgb(43, 43, 43);
+        text-shadow: 9px 3px 4px rgb(22, 22, 22);
     }
     
     .banner-bajada-home {
@@ -158,7 +168,7 @@
         font: 25;
         margin: 0;
         font-weight: 500;
-        text-shadow: 5px 5px 5px 5px rgb(43, 43, 43);
+        text-shadow: 9px 3px 4px rgb(22, 22, 22);
     }
     
     .banner_title {
@@ -471,7 +481,12 @@
         width: 160px;
     }
     
-    .btn-jardines:hover,
+    .btn-jardines:hover {
+        background-color: #C0D100;
+        color: white;
+        font-weight: 600;
+    }
+    
     .btn-jardines-sm:hover,
     .btn-jardines.nav-link:hover {
         background-color: #164284;
@@ -491,13 +506,28 @@
         max-height: 300px;
     }
     
+    .jardines-carrusel-col12 {
+        min-height: 350px;
+        border-radius: 55px 55px 55px 55px;
+    }
+    
+    .carousel_rm_ernestoPinto_funcionarios {
+        background-image: url("../img/funcionarios-1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 200px;
+    }
+    
     .carousel_rm_ernestoPinto {
         background-image: url("../img/card_ernesto_rm.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
-        min-height: 200px;
+        min-height: 350px;
+        border-radius: 55px 55px 55px 55px;
     }
     
     .carousel_rm_luisFalcone {
@@ -522,6 +552,8 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
     }
     
     .banner-contain-text {
@@ -530,7 +562,6 @@
         width: 500px;
         height: 120px;
         bottom: 0;
-        right: 35%;
         padding: 15px;
     }
     
