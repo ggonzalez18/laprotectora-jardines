@@ -25,21 +25,31 @@
             <nav class="navbar navbar-expand-lg navbar-dark nav-color fixed-top align-center pb-4 pt-3">
                 <a class="navbar-brand ml-auto" href="index.html"><img src="assets/img/Logo-Protectora-Blanco-Oficial.png" width="120" height="" alt="Logo
                     del sitio web"></a>
-
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler ml-auto mb-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                    <span class="mt-2">Menú</span>
+                    <span class="mt-3">Menú</span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item "><a class="nav-link" href="#inicio">Nosotros</a></li>
+                        <li class="nav-item dropdown nav-color">
+                            <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Nosotros
+                            </a>
+                            <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Quiénes somos</a>
+                                <a class="dropdown-item" href="#">Trabaja con nosotros</a>
+                                <a class="dropdown-item" href="#">Contacto</a>
+                                <a class="dropdown-item" href="#">Transparencia</a>
+                            </div>
+                        </li>
                         <li class="nav-item dropdown nav-color">
                             <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Programas Sociales
                             </a>
                             <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">SubMenu 1</a>
-                                <a class="dropdown-item" href="#">SubMenu 2</a>
+                                <a class="dropdown-item" href="#">Viviendo en Familia</a>
+                                <a class="dropdown-item" href="#">Residencia niños/as jovenes</a>
+                                <a class="dropdown-item" href="#">Residencia y programas de primera infancia</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown nav-color">
@@ -51,15 +61,25 @@
                                 <a class="dropdown-item" href="jardines.html">Educación Inicial</a>
                             </div>
                         </li>
-
-                        <li class="nav-item"><a class="nav-link" href="#contacto">Testimonios</a></li>
                         <li class="nav-item dropdown nav-color">
                             <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Cómo Ayudar
+                                Historias
                             </a>
                             <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">SubMenu 1</a>
-                                <a class="dropdown-item" href="#">SubMenu 2</a>
+                                <a class="dropdown-item" href="#">Testimonios</a>
+                                <a class="dropdown-item" href="#">Actualidad</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown nav-color">
+                            <a class="nav-link dropdown-toggle nav-color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ¿Cómo Ayudar?
+                            </a>
+                            <div class="dropdown-menu nav-color" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Donación única</a>
+                                <a class="dropdown-item" href="#">Hazte socio/a</a>
+                                <a class="dropdown-item" href="#">Inscriba su empresa</a>
+                                <a class="dropdown-item" href="#">Voluntariado</a>
+                                <a class="dropdown-item" href="#">Tienda</a>
                             </div>
                         </li>
                     </ul>
@@ -109,8 +129,7 @@
     <!-- timeline -->
     <section>
         <main class="container text-center pt-5 mb-5">
-            <h2>Queremos contribuir al desarrollo de la infancia
-            </h2>
+            <h2 class="title-sites-gray">Queremos contribuir al desarrollo de la infancia</h2>
             <h1 class="font-weight-bold title-sites-blue">¡Entérate de nuestra misión, y sé parte de ella!</h1>
             <!-- infografia desktop -->
             <div title="Infografia para conocer a la protectora" class="d-flex justify-content-center mt-5">
@@ -132,30 +151,90 @@
                     <div class="carousel-item active">
                         <div class="row">
                             <div class="col-lg-6 col-xl-6 col-md-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
-                                <div class="card-float-interior">caja 1</div>
+                                <div class="card-float-interior-testimonios">
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                            <img src="./assets/img/testimonio1.png" alt="" width="100%" class="img-testimonios">
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-8 col-12">
+                                            <p class="subtitle-site-title text-center font-weight-bold">Carlos,<br> Universitario</p>
+                                            <p class="parrafo-regular">“Participar de la fundación me ha permitido aplicar todos mis conocimientos en el mundo real, al servicio de los niños”</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-lg-6 col-xl-6 col-md-12 col-12">
-                                <div class="card-float-interior">caja 2</div>
+                                <div class="card-float-interior-testimonios">
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                            <img src="./assets/img/testimonio2.png" alt="" width="100%" class="img-testimonios">
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-8 col-12">
+                                            <p class="subtitle-site-title text-center font-weight-bold">Fernanda,<br> Consejera familiar</p>
+                                            <p class="parrafo-regular">“Trabajar en programas sociales me ha hecho ver un Chile que muchos no quieren ver. Todos los niños merecen un núcleo familiar seguro”</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-lg-6 col-xl-6 col-md-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
-                                <div class="card-float-interior">caja 3</div>
+                                <div class="card-float-interior-testimonios">
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                            <img src="./assets/img/testimonio3.png" alt="" width="100%" class="img-testimonios">
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-8 col-12">
+                                            <p class="subtitle-site-title text-center font-weight-bold">Sofía, <br>Profesora</p>
+                                            <p class="parrafo-regular">“Soy profesora de básica desde hace 3 años y he visto el impacto de mi ayuda en la vida de los niños y eso me llena de satisfacción”</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-lg-6 col-xl-6 col-md-12 col-12">
-                                <div class="card-float-interior">caja 4</div>
+                                <div class="card-float-interior-testimonios">
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                            <img src="./assets/img/testimonio1.png" alt="" width="100%" class="img-testimonios">
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-8 col-12">
+                                            <p class="subtitle-site-title text-center font-weight-bold">Carlos,<br> Universitario</p>
+                                            <p class="parrafo-regular">“Participar de la fundación me ha permitido aplicar todos mis conocimientos en el mundo real, al servicio de los niños”</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-lg-6 col-xl-6 col-md-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
-                                <div class="card-float-interior">caja 5</div>
+                                <div class="card-float-interior-testimonios">
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                            <img src="./assets/img/testimonio2.png" alt="" width="100%" class="img-testimonios">
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-8 col-12">
+                                            <p class="subtitle-site-title text-center font-weight-bold">Fernanda,<br> Consejera familiar</p>
+                                            <p class="parrafo-regular">“Trabajar en los programas sociales me ha abierto los ojos a un Chile que muchos no quieren ver. Ningún niño merece crecer sin un núcleo familiar seguro”</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-lg-6 col-xl-6 col-md-12 col-12">
-                                <div class="card-float-interior">caja 6</div>
+                                <div class="card-float-interior-testimonios">
+                                    <div class="row align-items-center">
+                                        <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                            <img src="./assets/img/testimonio3.png" alt="" width="100%" class="img-testimonios">
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-8 col-12">
+                                            <p class="subtitle-site-title text-center font-weight-bold">Sofía, <br>Profesora</p>
+                                            <p class="parrafo-regular">“Soy profesora de básica desde hace 3 años y he visto el impacto de mi ayuda en la vida de los niños y eso me llena de satisfacción”</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -182,25 +261,25 @@
         <div class="container content-card-float-home mt-4 mb-4">
             <h2 class="title-sites-blue mt-3"><strong>Comunidades protectoras</strong></h2>
             <div class="row align-items-end mt-4">
-                <div class="col">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <article class="d-flex justify-content-center">
                         <img src="./assets/img/icon-voluntarios-home.svg" alt="" width="100"></article>
                     <h1 class="cifras_num"><strong>3229</strong></h1>
                     <p class="cifras_texto">Voluntarios</p>
                 </div>
-                <div class="col content-icons-home">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <article class="d-flex justify-content-center">
                         <img src="./assets/img/icon-redSolidaria-home.svg" alt="" width="100"></article>
                     <h1 class="cifras_num"><strong>17</strong></h1>
                     <p class="cifras_texto">Red solidaria de Colegios</p>
                 </div>
-                <div class="col">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <article class="d-flex justify-content-center">
                         <img src="./assets/img/icon-socios-home.svg" alt="" width="100"></article>
                     <h1 class="cifras_num"><strong>3310</strong></h1>
                     <p class="cifras_texto">Socios</p>
                 </div>
-                <div class="col">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <article class="d-flex justify-content-center">
                         <img src="./assets/img/icon-empresas-home.svg" alt="" width="100"></article>
                     <h1 class="cifras_num"><strong>48</strong></h1>
@@ -229,7 +308,9 @@
                             se potencia el desarrollo de habilidades y aprendizajes que se espera que logren por edad los niños y niñas pertenecientes a los quintiles más vulnerables de Chile.</p>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-12">
-                        <article class="home-video"></article>
+                        <article>
+                            <iframe class="home-video" src="https://www.youtube.com/embed/fzr55pxFpz0" title="Video impacto de la protectora" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -238,7 +319,6 @@
             <h2 class="jardines-title pb-5 mt-5"><strong>Actualidad</strong></h2>
         </div>
     </section>
-
 
     <!-- cards de actualidad -->
     <section class="section_line_actions carousel slide" title="Conoce Nuestras comunidades Protectoras" role="contentinfo" id="carousel-actualidad" data-ride="carousel">
@@ -385,7 +465,6 @@
 
         </div>
     </section>
-
 
     <!-- marcas -->
     <section class="mt-5 mb-5">

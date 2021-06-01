@@ -1,753 +1,806 @@
-    body {
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Open Sans', sans-serif;
-        padding-top: 90px;
-    }
-    
-    .jardines-title {
-        font-size: 36px;
-        text-align: center;
-        /* font-weight: 600; */
-        color: #474646!important;
-    }
-    
-    .title-sites-blue {
-        font-size: 36px;
-        text-align: center;
-        color: #164284;
-    }
-    
-    .jardines-parrafo-regular {
-        color: #727475;
-        font-size: 16px;
-    }
-    
-    .parrafo-regular {
-        color: #727475;
-        font-size: 16px;
-    }
-    
-    .subtitle-site-title {
-        color: #474646;
-        font-size: 28px;
-    }
-    
-    .subtitle-site-parrafo {
-        color: #474646;
-        font-size: 18px;
-    }
-    
-    .parrafo-small-blue {
-        color: #164284;
-        font-size: 12px;
-    }
-    
-    .parrafo-regular-blue {
-        color: #164284;
-        font-size: 16px;
-    }
-    /* menu */
-    
-    .nav-color {
-        background-color: #164284;
-        color: white;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    /* banner */
-    
-    .banner_contain {
-        max-height: 400px;
-    }
-    
-    .banner-contain-article p {
-        margin: 0
-    }
-    
-    .banner_carousel1 {
-        width: 100%;
-        height: 400px;
-        position: relative;
-        background-image: url("../img/banner_principal.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .banner_information {
-        position: absolute;
-        left: 10%;
-        bottom: 20%;
-    }
-    
-    .banner-interior-home {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        bottom: 0;
-        width: 80%;
-    }
-    
-    .banner_home1 {
-        width: 100%;
-        height: 400px;
-        position: relative;
-        background-image: url("../img/banner-home1.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .banner-btn-home {
-        height: 55px;
-        padding: .5rem 1rem;
-        display: block;
-        border: 1px solid transparent;
-        font-size: 16px;
-        font-weight: bold;
-        line-height: 1.5;
-        text-decoration: none;
-        text-align: center;
-        background-color: rgba(255, 255, 255, 0.664);
-        color: #164284;
-        margin: 0px 10px;
-        width: 250px;
-        border-radius: 4px 4px 0px 0px;
-    }
-    
-    .banner-btn-home:hover {
-        border: 1px solid transparent;
-        font-size: 18px;
-        text-decoration: none;
-        text-align: center;
-        background-color: white;
-    }
-    
-    .enlace-none {
-        text-decoration: none;
-    }
-    
-    .banner-btn-home-green {
-        height: 55px;
-        padding: .5rem 1rem;
-        display: block;
-        border: 1px solid transparent;
-        font-size: 16px;
-        font-weight: bold;
-        line-height: 1.5;
-        text-decoration: none;
-        text-align: center;
-        background-color: #7ab24dc5;
-        color: white;
-        margin: 0px 10px;
-        width: 250px;
-        border-radius: 4px 4px 0px 0px;
-    }
-    
-    .banner-btn-home-green:hover {
-        border: 1px solid transparent;
-        font-size: 18px;
-        text-decoration: none;
-        text-align: center;
-        background-color: #7AB24D;
-    }
-    
-    .banner-title-home {
-        color: white;
-        text-align: left;
-        font-size: 36px;
-        margin: 0;
-        font-weight: 500;
-        text-shadow: 9px 3px 4px rgb(22, 22, 22);
-    }
-    
-    .banner-bajada-home {
-        color: white;
-        text-align: left;
-        font: 25;
-        margin: 0;
-        font-weight: 500;
-        text-shadow: 9px 3px 4px rgb(22, 22, 22);
-    }
-    
-    .banner_title {
-        background-color: rgba(255, 255, 255, 0.781);
-        color: rgb(81, 81, 81);
-        text-align: right;
-        font-weight: 500;
-    }
-    
-    .banner_button_text,
-    .banner_button_text:hover {
-        text-decoration: none;
-        color: white;
-    }
-    /* ed. inicial */
-    
-    .section_educacion_inicial {
-        padding: 35px 0px;
-    }
-    /* cifras */
-    
-    .section_cifras,
-    .section_frequent_questions,
-    .section_line_actions,
-    .section_higth_scope {
-        padding: 25px 0px;
-        background-color: #E1E6EF;
-    }
-    
-    .cifras_num {
-        font-size: 40px;
-        color: #164284;
-        text-align: center;
-    }
-    
-    .content-lineAction {
-        /* width: 20%; */
-    }
-    
-    .cifras_texto {
-        color: #164284;
-        font-size: 18px;
-        font-weight: bold;
-        text-align: center;
-    }
-    /* secion fotos jardines */
-    
-    .image_content1 {
-        min-height: 220px;
-        width: 100%;
-        position: relative;
-        background-image: url("../img/carrusel_1.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .image_content2 {
-        min-height: 220px;
-        width: 100%;
-        position: relative;
-        background-image: url("../img/carrusel_2.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .image_content3 {
-        min-height: 220px;
-        width: 100%;
-        position: relative;
-        background-image: url("../img/carrusel_3.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .image_content4 {
-        min-height: 220px;
-        width: 100%;
-        position: relative;
-        background-image: url("../img/carrusel_4.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    /* tabs jardines */
-    
-    .regiones_button {
-        font-size: .875rem;
-        line-height: 1.5;
-        border-radius: .25rem;
-        text-align: center;
-    }
-    
-    .map-metropolitana {
-        /* background-image: url("../img/map-region-rm.png"); */
-        background-size: cover;
-        position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .tab_text {
-        display: block;
-        padding: .5rem 1.6rem;
-        box-shadow: 7px -5px 8px -5px #999;
-        border-radius: 6px;
-        color: #727475;
-        text-align: center;
-    }
-    
-    .tab_text.nav-link:hover,
-    .tab_text_two.nav-link:hover {
-        color: #727475;
-        font-weight: 700;
-    }
-    
-    .tab_text::before,
-    .tab_text:focus,
-    .tab_text:active,
-    .tab_text_two::before,
-    .tab_text_two:focus,
-    .tab_text_two:active {
-        font-weight: 700;
-        text-decoration: none;
-        color: #7AB24D;
-    }
-    
-    .tab_text_two {
-        display: block;
-        padding: .5rem 1.6rem;
-        box-shadow: 7px -5px 8px -5px #999;
-        border-radius: 6px;
-        color: #727475;
-        text-align: center;
-        min-width: 180px;
-    }
-    /* metodologia higth scope */
-    
-    .section_higth_scope_text {
-        font-size: 28px;
-    }
-    
-    .card-float-scope {
-        background: none repeat scroll 0 0 #ffffff;
-        border: 1px solid #ebebeb;
-        border-radius: 55px 55px 55px 55px;
-        box-shadow: 0 10px 12px -5px #a5a5a5;
-        min-height: 170px;
-        margin: -80px 0px 0px 0px;
-        width: 95%;
-        padding: 20px;
-    }
-    
-    .higth-scope-text-card {
-        font-size: 18px;
-        color: #727475;
-        text-align: center;
-    }
-    
-    .hight-scope-banner {
-        width: 100%;
-        height: 400px;
-        position: relative;
-        background-image: url("../img/hight-scope.JPG");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    /* voluntariado */
-    
-    .content-card-float {
-        min-height: 350px;
-        border-top: 75px solid #E1E6EF;
-        border-bottom: 75px solid #E1E6EF;
-    }
-    
-    .content-card-float-home {
-        min-height: 350px;
-        border-top: 35px solid #E1E6EF;
-        border-bottom: 35px solid #E1E6EF;
-    }
-    
-    .voluntariado_img {
-        background-image: url("../img/voluntariado_laprotectora.jpg");
-        background-size: cover;
-        position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        min-height: 220px;
-    }
-    
-    .home-video {
-        background-image: url("../img/video-home.png");
-        background-size: cover;
-        position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        min-height: 300px;
-        border-radius: 55px 55px 55px 55px;
-    }
-    
-    .card-float {
-        background: none repeat scroll 0 0 #ffffff;
-        border: 1px solid #ebebeb;
-        border-radius: 55px 55px 55px 55px;
-        box-shadow: 0 10px 12px -5px #a5a5a5;
-        min-height: 350px;
-        margin: -50px 0px;
-        width: 95%;
-        padding: 20px;
-    }
-    
-    .card-float-home {
-        background: none repeat scroll 0 0 #ffffff;
-        border: 1px solid #ebebeb;
-        border-radius: 55px 55px 55px 55px;
-        box-shadow: 0 10px 12px -5px #a5a5a5;
-        min-height: 350px;
-        margin: -50px 0px 0px 0px;
-        width: 95%;
-        padding: 20px;
-    }
-    
-    .content-banner-float-home {
-        min-height: 250px;
-        margin: 0px 0px -50px 0px;
-        width: 100%;
-        padding: 10px;
-    }
-    
-    .card-float-interior {
-        background: none repeat scroll 0 0 #ffffff;
-        border: 1px solid #ebebeb;
-        border-radius: 55px 55px 55px 55px;
-        box-shadow: 0 10px 12px -5px #a5a5a5;
-        min-height: 250px;
-        padding: 20px;
-        margin: 15px 10px;
-    }
-    
-    .card-float-interior-with-img {
-        background: none repeat scroll 0 0 #ffffff;
-        border: 1px solid #ebebeb;
-        border-radius: 55px 55px 55px 55px;
-        box-shadow: 0 10px 12px -5px #a5a5a5;
-        min-height: 250px;
-        margin: 15px 10px;
-    }
-    
-    .carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        color: black!important;
-    }
-    
-    .carousel-control-next,
-    .carousel-control-prev {
-        width: 5%!important;
-    }
-    /* footer */
-    
-    footer {
-        background-color: #164284;
-        color: white;
-        padding: 20px;
-    }
-    
-    .footer-text {
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.66);
-        text-align: left;
-    }
-    
-    .footer-text:hover {
-        text-decoration: none;
-        color: white;
-        text-align: left;
-    }
-    
-    .footer-parrafo-text {
-        margin: 0px 0px 5px 0px;
-    }
-    /* botones */
-    
-    .btn-jardines {
-        padding: .5rem 1rem;
-        display: block;
-        border-radius: .2rem;
-        border: 1px solid transparent;
-        font-size: 1rem;
-        line-height: 1.5;
-        text-align: center;
-        text-decoration: none;
-        background-color: #7AB24D;
-        color: white;
-        width: 170px;
-    }
-    
-    .btn-jardines-sm {
-        padding: .375rem .75rem;
-        display: block;
-        border-radius: .2rem;
-        border: 1px solid transparent;
-        font-size: .875rem;
-        line-height: 1.5;
-        text-align: center;
-        text-decoration: none;
-        background-color: #0081C2;
-        color: white;
-        width: 160px;
-    }
-    
-    .btn-jardines:hover {
-        background-color: #C0D100;
-        color: white;
-        font-weight: 600;
-    }
-    
-    .btn-jardines-sm:hover,
-    .btn-jardines.nav-link:hover {
-        background-color: #164284;
-        color: white;
-        font-weight: 600;
-    }
-    
-    .btn-jardines-sm:focus,
-    .btn-jardines.nav-link:active {
-        font-weight: 600;
-        text-decoration: none;
-        background-color: #164284!important;
-    }
-    /* jardines*/
-    
-    .jardines-contain-img {
-        max-height: 300px;
-    }
-    
-    .jardines-carrusel-col12 {
-        min-height: 350px;
-        border-radius: 55px 55px 55px 55px;
-    }
-    
-    .carousel_rm_ernestoPinto_funcionarios {
-        background-image: url("../img/funcionarios-1.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        min-height: 200px;
-    }
-    
-    .carousel_rm_ernestoPinto {
-        background-image: url("../img/card_ernesto_rm.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        min-height: 350px;
-        border-radius: 55px 55px 55px 55px;
-    }
-    
-    .carousel_rm_luisFalcone {
-        background-image: url("../img/card_ingeniero_rm.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        min-height: 200px;
-    }
-    
-    .color-azul {
-        color: #164284;
-    }
-    /* -----------------------postulaciones---------------------------------- */
-    
-    .banner-postulacion {
-        width: 100%;
-        height: 350px;
-        position: relative;
-        background-image: url("../img/card_ernesto_rm.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .banner-contain-text {
-        background-color: rgba(255, 255, 255, 0.802);
-        position: absolute;
-        width: 500px;
-        height: 120px;
-        bottom: 0;
-        padding: 15px;
-    }
-    
-    .banner-contain-article {
-        width: 50%;
-        height: 70px;
-    }
-    
-    .barra-color-azul {
-        background-color: #164284;
-        width: 7px;
-        height: 50px;
-        margin-right: 5px;
-    }
-    
-    .barra-color-verde {
-        width: 7px;
-        height: 50px;
-        margin-right: 5px;
-        background-color: #C0D100;
-    }
-    
-    .postulacion_img1 {
-        background-image: url("../img/postulacioon1.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 240px;
-    }
-    
-    .postulacion_img2 {
-        background-image: url("../img/postulacion2.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 215px;
-    }
-    
-    .postulacion_img3 {
-        background-image: url("../img/postulacion3.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 215px;
-    }
-    /* breadcrum */
-    
-    .bread-crumb {
-        display: flex;
-        padding: .75rem 1rem;
-        list-style: none;
-    }
-    
-    .bread-crumb-separate.bread-crumb-separate::before {
-        /* padding-right: .5rem; */
-        padding: 0rem .5rem;
-        color: #7AB24D;
-        content: ">";
-        font-weight: bolder;
-    }
-    
-    .enlace_text {
-        text-decoration: none;
-        color: #727475;
-        font-size: 16px;
-    }
-    
-    .enlace_text:hover {
-        text-decoration: none;
-        color: #7AB24D;
-        font-weight: bold;
-    }
-    /* timeline */
-    
-    .hori-timeline .events {
-        border-top: 5px solid #727475;
-    }
-    
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 90px;
+}
+
+.jardines-title {
+    font-size: 36px;
+    text-align: center;
+    color: #474646!important;
+}
+
+.title-sites-gray {
+    font-size: 36px;
+    text-align: center;
+    color: #474646;
+}
+
+.title-sites-blue {
+    font-size: 36px;
+    text-align: center;
+    color: #164284;
+}
+
+.jardines-parrafo-regular {
+    color: #727475;
+    font-size: 16px;
+}
+
+.parrafo-regular {
+    color: #727475;
+    font-size: 16px;
+}
+
+.subtitle-site-title {
+    color: #474646;
+    font-size: 28px;
+}
+
+.subtitle-site-parrafo {
+    color: #474646;
+    font-size: 18px;
+}
+
+.parrafo-small-blue {
+    color: #164284;
+    font-size: 12px;
+}
+
+.parrafo-regular-blue {
+    color: #164284;
+    font-size: 16px;
+}
+
+
+/* menu */
+
+.nav-color {
+    background-color: #164284;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dropdown-menu {
+    color: white!important;
+    background-color: #164284c2!important;
+    border: 0 !important;
+    border-radius: 0!important;
+}
+
+.dropdown-item {
+    color: white!important;
+}
+
+.dropdown-item:hover {
+    font-weight: bold!important;
+    color: white!important;
+    background-color: #164284!important;
+}
+
+
+/* banner */
+
+.banner_contain {
+    max-height: 400px;
+}
+
+.banner-contain-article p {
+    margin: 0
+}
+
+.banner_carousel1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url("../img/banner_principal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_information {
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+}
+
+.banner-interior-home {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 80%;
+}
+
+.banner_home1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url("../img/banner-home1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-btn-home {
+    height: 55px;
+    padding: .5rem 1rem;
+    display: block;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.664);
+    color: #164284;
+    margin: 0px 10px;
+    width: 250px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.banner-btn-home:hover {
+    border: 1px solid transparent;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+}
+
+.enlace-none {
+    text-decoration: none;
+}
+
+.banner-btn-home-green {
+    height: 55px;
+    padding: .5rem 1rem;
+    display: block;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: center;
+    background-color: #7ab24dc5;
+    color: white;
+    margin: 0px 10px;
+    width: 250px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.banner-btn-home-green:hover {
+    border: 1px solid transparent;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #7AB24D;
+}
+
+.banner-title-home {
+    color: white;
+    text-align: left;
+    font-size: 36px;
+    margin: 0;
+    font-weight: 500;
+    text-shadow: 9px 3px 4px rgb(22, 22, 22);
+}
+
+.banner-bajada-home {
+    color: white;
+    text-align: left;
+    font: 25;
+    margin: 0;
+    font-weight: 500;
+    text-shadow: 9px 3px 4px rgb(22, 22, 22);
+}
+
+.banner_title {
+    background-color: rgba(255, 255, 255, 0.781);
+    color: rgb(81, 81, 81);
+    text-align: right;
+    font-weight: 500;
+}
+
+.banner_button_text,
+.banner_button_text:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ed. inicial */
+
+.section_educacion_inicial {
+    padding: 35px 0px;
+}
+
+
+/* cifras */
+
+.section_cifras,
+.section_frequent_questions,
+.section_line_actions,
+.section_higth_scope {
+    padding: 25px 0px;
+    background-color: #E1E6EF;
+}
+
+.cifras_num {
+    font-size: 40px;
+    color: #164284;
+    text-align: center;
+}
+
+.content-lineAction {
+    /* width: 20%; */
+}
+
+.cifras_texto {
+    color: #164284;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* secion fotos jardines */
+
+.image_content1 {
+    min-height: 220px;
+    width: 100%;
+    position: relative;
+    background-image: url("../img/carrusel_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image_content2 {
+    min-height: 220px;
+    width: 100%;
+    position: relative;
+    background-image: url("../img/carrusel_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image_content3 {
+    min-height: 220px;
+    width: 100%;
+    position: relative;
+    background-image: url("../img/carrusel_3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image_content4 {
+    min-height: 220px;
+    width: 100%;
+    position: relative;
+    background-image: url("../img/carrusel_4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* tabs jardines */
+
+.regiones_button {
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-align: center;
+}
+
+.map-metropolitana {
+    /* background-image: url("../img/map-region-rm.png"); */
+    background-size: cover;
+    position: center;
+    background-repeat: no-repeat;
+}
+
+.tab_text {
+    display: block;
+    padding: .5rem 1.6rem;
+    box-shadow: 7px -5px 8px -5px #999;
+    border-radius: 6px;
+    color: #727475;
+    text-align: center;
+}
+
+.tab_text.nav-link:hover,
+.tab_text_two.nav-link:hover {
+    color: #727475;
+    font-weight: 700;
+}
+
+.tab_text::before,
+.tab_text:focus,
+.tab_text:active,
+.tab_text_two::before,
+.tab_text_two:focus,
+.tab_text_two:active {
+    font-weight: 700;
+    text-decoration: none;
+    color: #7AB24D;
+}
+
+.tab_text_two {
+    display: block;
+    padding: .5rem 1.6rem;
+    box-shadow: 7px -5px 8px -5px #999;
+    border-radius: 6px;
+    color: #727475;
+    text-align: center;
+    min-width: 180px;
+}
+
+
+/* metodologia higth scope */
+
+.section_higth_scope_text {
+    font-size: 28px;
+}
+
+.card-float-scope {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 170px;
+    margin: -80px 0px 0px 0px;
+    width: 95%;
+    padding: 20px;
+}
+
+.higth-scope-text-card {
+    font-size: 18px;
+    color: #727475;
+    text-align: center;
+}
+
+.hight-scope-banner {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url("../img/hight-scope.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* voluntariado */
+
+.content-card-float {
+    min-height: 350px;
+    border-top: 75px solid #E1E6EF;
+    border-bottom: 75px solid #E1E6EF;
+}
+
+.content-card-float-home {
+    min-height: 350px;
+    border-top: 35px solid #E1E6EF;
+    border-bottom: 35px solid #E1E6EF;
+}
+
+.voluntariado_img {
+    background-image: url("../img/voluntariado_laprotectora.jpg");
+    background-size: cover;
+    position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 220px;
+}
+
+.home-video {
+    /* background-image: url("../img/video-home.png"); */
+    background-size: cover;
+    position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 45px 45px 45px 45px;
+}
+
+.card-float {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 350px;
+    margin: -50px 0px;
+    width: 95%;
+    padding: 20px;
+}
+
+.card-float-home {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 350px;
+    margin: -50px 0px 0px 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+.content-banner-float-home {
+    min-height: 250px;
+    margin: 0px 0px -50px 0px;
+    width: 100%;
+    padding: 10px;
+}
+
+.card-float-interior-testimonios {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 250px;
+    padding: 20px;
+    margin: 15px 10px;
+}
+
+.card-float-interior-with-img {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 0 10px 12px -5px #a5a5a5;
+    min-height: 250px;
+    margin: 15px 10px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    color: black!important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%!important;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #164284;
+    color: white;
+    padding: 20px;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.66);
+    text-align: left;
+}
+
+.footer-text:hover {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.footer-parrafo-text {
+    margin: 0px 0px 5px 0px;
+}
+
+
+/* botones */
+
+.btn-jardines {
+    padding: .5rem 1rem;
+    display: block;
+    border-radius: .2rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    background-color: #7AB24D;
+    color: white;
+    width: 170px;
+}
+
+.btn-jardines-sm {
+    padding: .375rem .75rem;
+    display: block;
+    border-radius: .2rem;
+    border: 1px solid transparent;
+    font-size: .875rem;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0081C2;
+    color: white;
+    width: 160px;
+}
+
+.btn-jardines:hover {
+    background-color: #C0D100;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-jardines-sm:hover,
+.btn-jardines.nav-link:hover {
+    background-color: #164284;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-jardines-sm:focus,
+.btn-jardines.nav-link:active {
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #164284!important;
+}
+
+
+/* jardines*/
+
+.jardines-contain-img {
+    max-height: 300px;
+}
+
+.jardines-carrusel-col12 {
+    min-height: 350px;
+    border-radius: 55px 55px 55px 55px;
+}
+
+.carousel_rm_ernestoPinto_funcionarios {
+    background-image: url("../img/funcionarios-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 200px;
+}
+
+.carousel_rm_ernestoPinto {
+    background-image: url("../img/card_ernesto_rm.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 350px;
+    border-radius: 55px 55px 55px 55px;
+}
+
+.carousel_rm_luisFalcone {
+    background-image: url("../img/card_ingeniero_rm.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 200px;
+}
+
+.color-azul {
+    color: #164284;
+}
+
+
+/* -----------------------postulaciones---------------------------------- */
+
+.banner-postulacion {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-image: url("../img/card_ernesto_rm.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-contain-text {
+    background-color: rgba(255, 255, 255, 0.802);
+    position: absolute;
+    width: 500px;
+    height: 120px;
+    bottom: 0;
+    padding: 15px;
+}
+
+.banner-contain-article {
+    width: 50%;
+    height: 70px;
+}
+
+.barra-color-azul {
+    background-color: #164284;
+    width: 7px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.barra-color-verde {
+    width: 7px;
+    height: 50px;
+    margin-right: 5px;
+    background-color: #C0D100;
+}
+
+.postulacion_img1 {
+    background-image: url("../img/postulacioon1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 240px;
+}
+
+.postulacion_img2 {
+    background-image: url("../img/postulacion2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 215px;
+}
+
+.postulacion_img3 {
+    background-image: url("../img/postulacion3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 215px;
+}
+
+
+/* breadcrum */
+
+.bread-crumb {
+    display: flex;
+    padding: .75rem 1rem;
+    list-style: none;
+}
+
+.bread-crumb-separate.bread-crumb-separate::before {
+    /* padding-right: .5rem; */
+    padding: 0rem .5rem;
+    color: #7AB24D;
+    content: ">";
+    font-weight: bolder;
+}
+
+.enlace_text {
+    text-decoration: none;
+    color: #727475;
+    font-size: 16px;
+}
+
+.enlace_text:hover {
+    text-decoration: none;
+    color: #7AB24D;
+    font-weight: bold;
+}
+
+
+/* timeline */
+
+.hori-timeline .events {
+    border-top: 5px solid #727475;
+}
+
+.hori-timeline .events .event-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+
+.hori-timeline .events .event-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #727475;
+    top: 0;
+}
+
+.hori-timeline .events .event-list .event-date {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 2px 4px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+@media (min-width: 992px) {
     .hori-timeline .events .event-list {
-        display: block;
-        position: relative;
-        text-align: center;
-        padding-top: 70px;
-        margin-right: 0;
+        display: inline-block;
+        width: 16%;
+        padding-top: 45px;
     }
-    
-    .hori-timeline .events .event-list:before {
-        content: "";
-        position: absolute;
-        height: 36px;
-        border-right: 2px dashed #727475;
-        top: 0;
-    }
-    
     .hori-timeline .events .event-list .event-date {
-        position: absolute;
-        top: 38px;
-        left: 0;
-        right: 0;
-        width: 75px;
-        margin: 0 auto;
-        border-radius: 4px;
-        padding: 2px 4px;
-        width: 35px;
-        height: 35px;
-        border-radius: 100%;
+        top: -12px;
     }
-    
-    @media (min-width: 992px) {
-        .hori-timeline .events .event-list {
-            display: inline-block;
-            width: 16%;
-            padding-top: 45px;
-        }
-        .hori-timeline .events .event-list .event-date {
-            top: -12px;
-        }
-        .alineacion {
-            display: flex;
-            justify-content: start;
-        }
+    .alineacion {
+        display: flex;
+        justify-content: start;
     }
-    
-    .bg-gray {
-        background-color: #727475!important;
-        color: white;
-    }
-    
-    .bg-green {
-        background-color: #C0D100!important;
-    }
-    /* -----------------------hight scope--------------------------------- */
-    
-    .nuestro-foco1 {
-        background-image: url("../img/carrusel_3.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 290px;
-    }
-    
-    .card-image-top-home1 {
-        border-radius: 55px 55px 0px 0px;
-        min-height: 150px;
-        width: 100%;
-        background-color: teal;
-        /* background-image: url("../img/carrusel_2.jpg"); */
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    /* home */
-    
-    .card-image-top-home2 {
-        border-radius: 55px 55px 0px 0px;
-        min-height: 150px;
-        width: 100%;
-        background-color: rgb(134, 62, 2);
-        /* background-image: url("../img/carrusel_2.jpg"); */
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .card-image-top-home3 {
-        border-radius: 55px 55px 0px 0px;
-        min-height: 150px;
-        width: 100%;
-        background-color: rgb(0, 128, 11);
-        /* background-image: url("../img/carrusel_2.jpg"); */
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .content-float-carrusel-actualidad {
-        /* background: none repeat scroll 0 0 #ffffff;
-        border: 1px solid #ebebeb;
-        border-radius: 55px 55px 55px 55px;
-        box-shadow: 0 10px 12px -5px #a5a5a5;
-        min-height: 170px; */
-        margin: -80px 0px 0px 0px;
-        /* width: 95%;
-        padding: 20px; */
-    }
+}
+
+.bg-gray {
+    background-color: #727475!important;
+    color: white;
+}
+
+.bg-green {
+    background-color: #C0D100!important;
+}
+
+
+/* -----------------------hight scope--------------------------------- */
+
+.nuestro-foco1 {
+    background-image: url("../img/carrusel_3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 290px;
+}
+
+.card-image-top-home1 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    /* background-color: teal; */
+    background-image: url("../img/card-home-1.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* home */
+
+.card-image-top-home2 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-color: rgb(134, 62, 2);
+    background-image: url("../img/card-home-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-image-top-home3 {
+    border-radius: 55px 55px 0px 0px;
+    min-height: 150px;
+    width: 100%;
+    background-image: url("../img/card-home-3.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-float-carrusel-actualidad {
+    /* background: none repeat scroll 0 0 #ffffff;
+border: 1px solid #ebebeb;
+border-radius: 55px 55px 55px 55px;
+box-shadow: 0 10px 12px -5px #a5a5a5;
+min-height: 170px; */
+    margin: -80px 0px 0px 0px;
+    /* width: 95%;
+padding: 20px; */
+}
